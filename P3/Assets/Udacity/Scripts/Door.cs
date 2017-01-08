@@ -15,7 +15,6 @@ public class Door : MonoBehaviour
     public void Unlock()
     {
         keyFound = true;
-        
     }
 
     public void OnDoorClicked()
