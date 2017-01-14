@@ -1,6 +1,8 @@
 -Persona
 -Sketch
 -Results of User Test (move camera up, lower ambient lighting)
+	Dungeon not necessarily mysterious: changed torch lights to green and lowered brightness
+	Feel smaller than normal: raised camera
 
 
 Outline:

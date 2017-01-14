@@ -5,6 +5,7 @@ public class GameLogic : MonoBehaviour {
 
 	public GameObject player;
 	public GameObject startUI, restartUI;
+    public GameObject growObject;
 
 
 	// Use this for initialization
@@ -21,4 +22,14 @@ public class GameLogic : MonoBehaviour {
 		startUI.SetActive (!startUI.activeSelf);
 		restartUI.SetActive (!restartUI.activeSelf);
 	}
+
+    public void growText()
+    {
+        growObject.transform.localScale += new Vector3(.15f, .15f, .15f);
+    }
+
+    public void shrinkText()
+    {
+        growObject.transform.localScale -= new Vector3(.15f, .15f, .15f);
+    }
 }
