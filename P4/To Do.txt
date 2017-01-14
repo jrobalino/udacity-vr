@@ -1,2 +1,15 @@
 -Persona
 -Sketch
+-Results of User Test (move camera up, lower ambient lighting)
+
+
+Outline:
+-Introduction
+-Outcomes
+-Story of the process
+-User testing outcomes and iteration
+-Breakdown of final piece
+-Conclusion
+
+SOP:
+Puzzler is a mobile VR application for new VR users which challenges them to solve a familiar type of puzzle in a new way.
