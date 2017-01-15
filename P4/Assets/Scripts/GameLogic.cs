@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class GameLogic : MonoBehaviour {
 
@@ -8,10 +9,12 @@ public class GameLogic : MonoBehaviour {
     public GameObject startUI, restartUI;
     public GameObject growObject, growObject2;
     public GameObject startPoint, playPoint, restartPoint;
+    public Text scoreText, lengthText, speedText;
     public GameObject[] puzzleSpheres; //An array to hold our puzzle spheres
 
     public int puzzleLength = 5; //How many times we light up.  This is the difficulty factor.  The longer it is the more you have to memorize in-game.
-    public float puzzleSpeed = 1f; //How many seconds between puzzle display pulses
+    public float puzzleSpeed = 1f;
+    private float puzzleSpeedValue; //How many seconds between puzzle display pulses
     private int[] puzzleOrder; //For now let's have 5 orbs
 
     private int currentDisplayIndex = 0; //Temporary variable for storing the index when displaying the pattern
@@ -20,21 +23,65 @@ public class GameLogic : MonoBehaviour {
     public GameObject failAudioHolder;
 
     private int currentSolveIndex = 0; //Temporary variable for storing the index that the player is solving for in the pattern.
+    private int failCount = 0; // The number of times the player failed before getting the pattern correct.
+    private Text scoreMessage, lengthMessage, speedMessage;
 
 
     // Use this for initialization
     void Start () {
         player.transform.position = startPoint.transform.position;
         puzzleOrder = new int[puzzleLength]; //Set the size of our array to the declared puzzle length
-        generatePuzzleSequence(); //Generate the puzzle sequence for this playthrough.  
+        generatePuzzleSequence(); //Generate the puzzle sequence for this playthrough.
+        lengthMessage = lengthText.GetComponent<Text>();
+        lengthMessage.text = "" + puzzleLength;
+        speedMessage = speedText.GetComponent<Text>();
+        speedMessage.text = "" + puzzleSpeed;
     }
 
 	// Update is called once per frame
 	void Update () {
-        
+        Debug.Log(puzzleSpeed);
+        Debug.Log(puzzleSpeedValue);
     }
 
-	public void toggleUI() {
+    public void increaseLength()
+    {
+        puzzleLength++;
+        lengthMessage.text = "" + puzzleLength;
+    }
+
+    public void decreaseLength()
+    {
+        if (puzzleLength >= 4)
+        {
+            puzzleLength--;
+        }
+        
+        lengthMessage.text = "" + puzzleLength;
+    }
+
+    public void increaseSpeed()
+    {
+        if (puzzleSpeed >= .5f)
+        {
+            puzzleSpeed -= .25f;
+        }
+        puzzleSpeedValue = 1 / puzzleSpeed;
+        speedMessage.text = "" + puzzleSpeedValue;
+    }
+
+    public void decreaseSpeed()
+    {
+        if (puzzleSpeed <= 2)
+        {
+            puzzleSpeed+= .25f;
+        }
+
+        puzzleSpeedValue = 1 / puzzleSpeed;
+        speedMessage.text = "" + puzzleSpeedValue;
+    }
+
+    public void toggleUI() {
 		startUI.SetActive (!startUI.activeSelf);
 		restartUI.SetActive (!restartUI.activeSelf);
 	}
@@ -57,6 +104,9 @@ public class GameLogic : MonoBehaviour {
       //Step through the array for displaying the puzzle, and checking puzzle failure or success.
         //startUI.SetActive(false);
         //eventSystem.SetActive(false);
+ 
+        
+        
         iTween.MoveTo(player,
         iTween.Hash(
             "position", playPoint.transform.position,
@@ -102,7 +152,7 @@ public class GameLogic : MonoBehaviour {
             { //Go through the puzzlespheres array
                 if (puzzleSpheres[i] == sphere)
                 { //If the object we have matches this index, we're good
-                    Debug.Log("Looks like we hit sphere: " + i);
+                    //Debug.Log("Looks like we hit sphere: " + i);
                     selectedIndex = i;
                 }
             }
@@ -132,7 +182,7 @@ public class GameLogic : MonoBehaviour {
     { //Invoked repeating.
         currentlyDisplayingPattern = true; //Let us know we are displaying the pattern
         eventSystem.SetActive(false); //Disable gaze input events while we are displaying the pattern.
-
+       
         if (currentlyDisplayingPattern == true)
         { //If we are not finished displaying the pattern
             if (currentDisplayIndex < puzzleOrder.Length)
@@ -144,6 +194,7 @@ public class GameLogic : MonoBehaviour {
             else
             {
                 //Debug.Log("End of puzzle display");
+                failCount++;
                 currentlyDisplayingPattern = false; //Let us know were done displaying the pattern
                 currentDisplayIndex = 0;
                 CancelInvoke(); //Stop the pattern display.  May be better to use coroutines for this but oh well
@@ -155,7 +206,7 @@ public class GameLogic : MonoBehaviour {
 
     public void generatePuzzleSequence()
     {
-
+        
         int tempReference;
         for (int i = 0; i < puzzleLength; i++)
         { //Do this as many times as necessary for puzzle length
@@ -169,7 +220,9 @@ public class GameLogic : MonoBehaviour {
         //restartUI.SetActive(false);
         //startUI.SetActive(true);
         playerWon = false;
+        puzzleOrder = new int[puzzleLength];
         generatePuzzleSequence(); //Generate the puzzle sequence for this playthrough.  
+        failCount = 0;
     }
 
     public void puzzleFailure()
@@ -177,13 +230,23 @@ public class GameLogic : MonoBehaviour {
         //Debug.Log("You've Failed, Resetting puzzle");
         failAudioHolder.GetComponent<GvrAudioSource>().Play();
         currentSolveIndex = 0;
-
         startPuzzle();
 
     }
 
     public void puzzleSuccess()
     { //Do this when the player gets it right
+        this.GetComponent<AudioSource>().Play(); //Play the success audio
+        scoreMessage = scoreText.GetComponent<Text>();
+        if (failCount == 1)
+        {
+            scoreMessage.text = "You won on your first attempt!";
+        }
+        else
+        {
+            scoreMessage.text = "You won after " + failCount + " attempts!";
+        }
+        
         iTween.MoveTo(player,
             iTween.Hash(
                 "position", restartPoint.transform.position,
@@ -197,7 +260,7 @@ public class GameLogic : MonoBehaviour {
 
     public void finishingFlourish()
     { //A nice visual flourish when the player wins
-      //this.GetComponent<AudioSource>().Play(); //Play the success audio
+      
         //restartUI.SetActive(true);
         playerWon = true;
 

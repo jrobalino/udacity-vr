@@ -136,6 +136,7 @@
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrFPS.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
     <Compile Include="Assets\Scripts\GameLogic.cs" />
+    <Compile Include="Assets\Scripts\buttonHover.cs" />
     <Compile Include="Assets\Scripts\lightUp.cs" />
   </ItemGroup>
   <ItemGroup>

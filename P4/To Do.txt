@@ -3,7 +3,14 @@
 -Results of User Test (move camera up, lower ambient lighting)
 	Dungeon not necessarily mysterious: changed torch lights to green and lowered brightness
 	Feel smaller than normal: raised camera
-
+-Results of User Test (change skybox)
+	I'm in a bright place in the mountains: change tint settings for skybox to give more of a dusk feel
+-Results of User Test (motion)
+	Rusty was new to Cardboard and felt sick in general. Lower speed of translation and add trees to control the periphery
+	Stuart didn't have any issues
+	Trini felt like ducking under the gate. I want the gate to have a little of this effect but not so much so I raised it
+-Results of User Test (add repeatability)
+	Is that it? Does it restart? Add score board and adjustable settings to make the game more interesting
 
 Outline:
 -Introduction
