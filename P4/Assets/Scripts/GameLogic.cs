@@ -13,8 +13,8 @@ public class GameLogic : MonoBehaviour {
     public GameObject[] puzzleSpheres; //An array to hold our puzzle spheres
 
     public int puzzleLength = 5; //How many times we light up.  This is the difficulty factor.  The longer it is the more you have to memorize in-game.
-    public float puzzleSpeed = 1f;
-    private float puzzleSpeedValue; //How many seconds between puzzle display pulses
+    public float puzzleSpeed = 1;
+    private int puzzleSpeedValue = 1; //How many seconds between puzzle display pulses
     private int[] puzzleOrder; //For now let's have 5 orbs
 
     private int currentDisplayIndex = 0; //Temporary variable for storing the index when displaying the pattern
@@ -35,13 +35,30 @@ public class GameLogic : MonoBehaviour {
         lengthMessage = lengthText.GetComponent<Text>();
         lengthMessage.text = "" + puzzleLength;
         speedMessage = speedText.GetComponent<Text>();
-        speedMessage.text = "" + puzzleSpeed;
+        switch (puzzleSpeedValue)
+        {
+            case 0:
+                puzzleSpeed = 2f;
+                speedMessage.text = "Easy";
+                break;
+            case 1:
+                puzzleSpeed = 1f;
+                speedMessage.text = "Normal";
+                break;
+            case 2:
+                puzzleSpeed = .5f;
+                speedMessage.text = "Hard";
+                break;
+            case 3:
+                puzzleSpeed = .25f;
+                speedMessage.text = "Insane";
+                break;
+        }
     }
 
 	// Update is called once per frame
 	void Update () {
-        Debug.Log(puzzleSpeed);
-        Debug.Log(puzzleSpeedValue);
+        
     }
 
     public void increaseLength()
@@ -62,23 +79,61 @@ public class GameLogic : MonoBehaviour {
 
     public void increaseSpeed()
     {
-        if (puzzleSpeed >= .5f)
+        if (puzzleSpeedValue <= 2)
         {
-            puzzleSpeed -= .25f;
+            puzzleSpeedValue++;
         }
-        puzzleSpeedValue = 1 / puzzleSpeed;
-        speedMessage.text = "" + puzzleSpeedValue;
+
+        switch (puzzleSpeedValue)
+        {
+            case 0:
+                puzzleSpeed = 2f;
+                speedMessage.text = "Easy";
+                break;
+            case 1:
+                puzzleSpeed = 1f;
+                speedMessage.text = "Normal";
+                break;
+            case 2:
+                puzzleSpeed = .5f;
+                speedMessage.text = "Hard";
+                break;
+            case 3:
+                puzzleSpeed = .25f;
+                speedMessage.text = "Insane";
+                break;
+        }
+
+        
+        
     }
 
     public void decreaseSpeed()
     {
-        if (puzzleSpeed <= 2)
+        if (puzzleSpeedValue >= 1)
         {
-            puzzleSpeed+= .25f;
+            puzzleSpeedValue--;
         }
 
-        puzzleSpeedValue = 1 / puzzleSpeed;
-        speedMessage.text = "" + puzzleSpeedValue;
+        switch (puzzleSpeedValue)
+        {
+            case 0:
+                puzzleSpeed = 2f;
+                speedMessage.text = "Easy";
+                break;
+            case 1:
+                puzzleSpeed = 1f;
+                speedMessage.text = "Normal";
+                break;
+            case 2:
+                puzzleSpeed = .5f;
+                speedMessage.text = "Hard";
+                break;
+            case 3:
+                puzzleSpeed = .25f;
+                speedMessage.text = "Insane";
+                break;
+        }
     }
 
     public void toggleUI() {
