@@ -54,6 +54,7 @@ public class GameLogic : MonoBehaviour {
                 speedMessage.text = "Insane";
                 break;
         }
+        
     }
 
 	// Update is called once per frame
@@ -63,12 +64,14 @@ public class GameLogic : MonoBehaviour {
 
     public void increaseLength()
     {
+        // Controls the setting for increasing the puzzle length
         puzzleLength++;
         lengthMessage.text = "" + puzzleLength;
     }
 
     public void decreaseLength()
     {
+        // Controls the setting for decreasing the puzzle length
         if (puzzleLength >= 4)
         {
             puzzleLength--;
@@ -79,11 +82,13 @@ public class GameLogic : MonoBehaviour {
 
     public void increaseSpeed()
     {
+        // Controls the setting for increasing the puzzle speed
         if (puzzleSpeedValue <= 2)
         {
             puzzleSpeedValue++;
         }
 
+        // Displays the difficulty of the game depending on the speed selected
         switch (puzzleSpeedValue)
         {
             case 0:
@@ -110,11 +115,13 @@ public class GameLogic : MonoBehaviour {
 
     public void decreaseSpeed()
     {
+        // Controls the setting for decreasing the speed of the game
         if (puzzleSpeedValue >= 1)
         {
             puzzleSpeedValue--;
         }
 
+        // Displays the difficulty of the game depending on the speed selected
         switch (puzzleSpeedValue)
         {
             case 0:
@@ -158,7 +165,7 @@ public class GameLogic : MonoBehaviour {
       //Generate a random number one through five, save it in an array.  Do this n times.
       //Step through the array for displaying the puzzle, and checking puzzle failure or success.
         //startUI.SetActive(false);
-        //eventSystem.SetActive(false);
+        eventSystem.SetActive(false);
  
         
         
@@ -249,7 +256,7 @@ public class GameLogic : MonoBehaviour {
             else
             {
                 //Debug.Log("End of puzzle display");
-                failCount++;
+                failCount++; // Increase the number of attempts it is taking the user to solve the puzzle
                 currentlyDisplayingPattern = false; //Let us know were done displaying the pattern
                 currentDisplayIndex = 0;
                 CancelInvoke(); //Stop the pattern display.  May be better to use coroutines for this but oh well
@@ -292,6 +299,7 @@ public class GameLogic : MonoBehaviour {
     public void puzzleSuccess()
     { //Do this when the player gets it right
         this.GetComponent<AudioSource>().Play(); //Play the success audio
+        // Display how many attempts it took the user to succeed
         scoreMessage = scoreText.GetComponent<Text>();
         if (failCount == 1)
         {
