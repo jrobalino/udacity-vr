@@ -32,7 +32,7 @@ This project emphasizes the importance of VR design methodology. After completin
 (video)
 
 ### Process
-> __*Statement of Purpose:*__ Puzzler is a mobile VR application that challenges new VR users to solve a familiar of puzzle in a new way.
+> __*Statement of Purpose:*__ Puzzler is a mobile VR application that challenges new VR users to solve a familiar puzzle in a new way.
 
 #### Persona
 (fill in later)
@@ -53,16 +53,23 @@ The main goals of user testing were to ensure:
 * The player understood how to play the game.
 * The player understood how to restart the game.
 
-#### Francisco
+I made the following changes as a result of user testing:
 
-#### Stuart
+| Issue | Quote | Change |
+| :---: | :---: | :---: |
+| Scale | "I feel shorter than normal." | Move camera up |
+| Mood | "It's pretty bright." | Lower ambient lighting |
+| Mood | "I'm high up in the mountains. I should probably put on sunblock." | Change skybox tint settings to simulate dusk |
+| Simulator Sickness | "[startled] Where is this taking me? I'm going places now." | Lower speed of translation |
+| Simulator Sickness | "It's making me sick." | Add trees to cover periphery as player moves forward |
+| User Comfort | "I'm going to bonk myself!" | Increase height of doorway |
+| Player Satisfaction | "Did I win?" | Add win audio and scoreboard |
+| Player Satisfaction | "Is that it?" | Give players the ability to  make the game longer or more difficult |
 
-#### Trini
-
-#### Rusty
+Thanks to Francisco (regular gamer, some VR experience), Stuart (nongamer, little VR experience), Trini (mobile gamer, no VR experience), and Rusty (light gamer, no VR experience, and prone to simulator sickness)!
 
 ### Breakdown of Final Piece
-By way of an iterative design process, the final game features the following components:
+By way of an iterative design process and in response to user feedback, the final game features the following components:
 (add screenshots)
 
 #### Snowy, Wind-Scourged Environment
@@ -83,8 +90,8 @@ how many times it took you to pass the game
 #### Adjustable Game Settings
 puzzle speed and length
 
-#### Conclusion
+### Conclusion
 Blah
 
 #### Next Steps
-Probably more instructions
+Probably more instructions, more levels or rooms
