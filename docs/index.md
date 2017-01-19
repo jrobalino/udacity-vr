@@ -9,6 +9,9 @@ title: Udacity VR Nanodegree - Javier Robalino
 This page documents the projects completed for my Udacity VR Nanodegree program.
 
 ## Project 4: Puzzler
+
+> Although abandoned for centuries, the wizard's dungeon remains under the spell of dark magic. Unwitting travelers desperate to find shelter amidst the snowy peaks have repeatedly become trapped by the dungeon's magic, unable to solve the wizard's puzzle. How will you fare, wary pilgrim?
+
 Puzzler is a mobile VR game that tests a player's visual memory skills. The game takes place within a mysterious dungeon, where orbs light up in a random pattern. To exit the dungeon, the player must reproduce the correct sequence in which the orbs light up.
 
 (screenshot)
@@ -66,7 +69,7 @@ I made the following changes as a result of user testing:
 | Player Satisfaction | "Did I win?" | Add win audio and scoreboard |
 | Player Satisfaction | "Is that it?" | Give players the ability to  make the game longer or more difficult |
 
-Thanks to Francisco (regular gamer, some VR experience), Stuart (nongamer, little VR experience), Trini (mobile gamer, no VR experience), and Rusty (light gamer, no VR experience, and prone to simulator sickness)!
+Thanks to Francisco (regular gamer, some VR experience), Stuart (nongamer, little VR experience), Trini (mobile gamer, no VR experience), and Rusty (light gamer, no VR experience, and prone to simulator sickness) for being the brave test subjects!
 
 ### Breakdown of Final Piece
 By way of an iterative design process and in response to user feedback, the final game features the following components:
