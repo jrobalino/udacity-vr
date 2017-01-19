@@ -15,6 +15,7 @@ Puzzler is a mobile VR game that tests a player's visual memory skills. The game
 
 ### Design Emphasis
 This project emphasizes the importance of VR design methodology. After completing this project, I gained a greater understanding of:
+
 * User Personas
 * Ergonomics
 * Field of View
@@ -39,11 +40,13 @@ This project emphasizes the importance of VR design methodology. After completin
 #### Sketches
 The following sketch represents the initial environment I envisioned for the game.
 (insert image)
-  The following sketches represent early ideas for the Start and Restart UI elements of the game.
+
+ The following sketches represent early ideas for the Start and Restart UI elements of the game.
 (insert image)
 
 ### User Testing
 The main goals of user testing were to ensure:
+
 * The scale of the dungeon gave the player the sense of normal human height.
 * The environment was perceived as mysterious or spooky.
 * The motion system did not induce simulator sickness.
