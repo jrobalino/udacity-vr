@@ -10,7 +10,7 @@ This page documents the projects completed for my Udacity VR Nanodegree program.
 
 ## Project 4: Puzzler
 
-> Although abandoned for centuries, the wizard's dungeon remains under the spell of dark magic. Unwitting travelers desperate to find shelter amidst the snowy peaks have repeatedly become trapped by the dungeon's magic, unable to solve the wizard's puzzle. How will you fare, wary pilgrim?
+> The wizard's dungeon has been abandoned for centuries, but dark magic still lingers within its stony confines. Rumors tell of shivering travelers seeking shelter in the dungeon, only to become forever trapped by the wizard's puzzle. How will you fare, pilgrim? Will you solve the ancient puzzle, or slowly turn to dust like all that came before you?
 
 Puzzler is a mobile VR game that tests a player's visual memory skills. The game takes place within a mysterious dungeon, where orbs light up in a random pattern. To exit the dungeon, the player must reproduce the correct sequence in which the orbs light up.
 
