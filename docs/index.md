@@ -14,7 +14,9 @@ This page documents the projects completed for my Udacity VR Nanodegree program.
 
 Puzzler is a mobile VR game that tests a player's visual memory skills. The game takes place within a mysterious dungeon, where orbs light up in a random pattern. To exit the dungeon, the player must reproduce the correct sequence in which the orbs light up.
 
-(screenshot)
+### Game Video
+
+[![Finished Game](udacity-vr/img/video-link.png)](https://youtu.be/a4xqkIVxSNs)
 
 ### Design Emphasis
 This project emphasizes the importance of VR design methodology. After completing this project, I gained a greater understanding of:
@@ -31,8 +33,6 @@ This project emphasizes the importance of VR design methodology. After completin
 * User Testing
 * Iterative Design
 * Documentation
-
-(video)
 
 ### Process
 > __*Statement of Purpose:*__ Puzzler is a mobile VR application that challenges new VR users to solve a familiar puzzle in a new way.
