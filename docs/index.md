@@ -49,11 +49,11 @@ This project emphasizes the importance of VR design methodology. After completin
 Cooper spends most of his time solving paranormal murder mysteries. He has little to no VR experience but is enthusiastic about trying new things, so long as he doesn't end up in another dimension. Some of his indulgences include good cherry pie, cups of black coffee, and speaking into a tape recorder to a woman named Diane.
 
 #### Sketches
-The following sketch represents the initial environment I envisioned for the game. From the start, I knew I wanted the dungeon to be surrounded by menacing mountains, to be snowed in and feel abandoned, and to have a skylight to highlight the orbs.
+The following sketch represents the initial environment I envisioned for the game. From the start, I wanted the dungeon to be surrounded by menacing mountains, to be snowed in and feel abandoned, and to have a skylight to highlight the orbs.
 
 ![Dungeon Sketch](https://jrobalino.github.io/udacity-vr/img/dungeon-sketch.jpg)
 
- The following sketches represent early ideas for the Start and Restart UI elements of the game. In the end, I chose the wooden sign posts because felt like they were part of the environment as opposed to a separate game menu, which user testing confirmed.
+ The following sketches represent early ideas for the Start and Restart UI elements of the game. In the end, I chose the wooden sign posts because they felt like part of the environment as opposed to separate game elements, which user testing confirmed would have taken players out of the experience, relatively speaking.
 
 ![UI Sketch](https://jrobalino.github.io/udacity-vr/img/ui-sketch.jpg)
 
@@ -82,15 +82,15 @@ Thanks again to Francisco, Stuart, Trini, and Rusty!
 
 | Issue | Quote | Change |
 | :---: | :---: | :---: |
-| Scale | > I feel shorter than normal. | Move camera up |
-| Mood | >"It's pretty bright." | Lower ambient lighting |
-| Mood | >I'm high up in the mountains. I should probably put on sunblock. | Change skybox tint settings to simulate dusk |
-| Simulator Sickness | > [startled] "Where is this taking me? I'm going places now." | Lower speed of translation |
-| Simulator Sickness | > "It's making me sick." | Add trees to cover periphery as player moves forward |
-| User Comfort | > "I'm going to bonk myself!" | Increase height of doorway |
-| Player Satisfaction | > "Did I win?" | Add win audio and scoreboard |
-| Player Satisfaction | > "Is that it?" | Give players the ability to  make the game longer or more difficult |
-| Player Satisfaction | > "I could play this all day!" | Success! |
+| Scale | "I feel shorter than normal."" | Move camera up |
+| Mood | "It's pretty bright." | Lower ambient lighting |
+| Mood | "I'm high up in the mountains. I should probably put on sunblock." | Change skybox tint settings to simulate dusk |
+| Simulator Sickness | [startled] "Where is this taking me? I'm going places now." | Lower speed of translation |
+| Simulator Sickness | "It's making me sick." | Add trees to cover periphery as player moves forward |
+| User Comfort | "I'm going to bonk myself!" | Increase height of doorway |
+| Player Satisfaction | "Did I win?" | Add win audio and scoreboard |
+| Player Satisfaction | "Is that it?" | Give players the ability to  make the game longer or more difficult |
+| Player Satisfaction | "I could play this all day!" | Success! |
 
 ### Progression of the Dungeon Environment
 
@@ -114,7 +114,7 @@ Making the torch light green achieved a "spooky" result for all players.
 
 ![Dungeon - darker skybox](https://jrobalino.github.io/udacity-vr/img/dungeon5.png)
 
-Adjusting the skybox tint to be darker and bluer made the environment feel like "dusk", with "low visibility", and "a sense of cold". The mood achieved its desired effect.
+The final mood achieved its desired effect. Adjusting the skybox tint to be darker and bluer made the environment feel like "dusk", with "low visibility", and "a sense of cold". 
 
 ### Breakdown of Final Piece
 Owing to an iterative design process and in response to user feedback, the final game features the following components:
@@ -126,7 +126,7 @@ Owing to an iterative design process and in response to user feedback, the final
 The environment is cold and menacing by way of:
 
 - A ground plane that looks like snow
-- Howling wind as the ambient noise
+- Howling wind serving as ambient noise
 - Bare, spindly trees
 - Green flames
 - A mountain skybox tinted to a darker shade of blue
@@ -140,13 +140,13 @@ The UI system of wooden sign posts is believable within the environment, preserv
 
 [![Motion System](https://jrobalino.github.io/udacity-vr/img/motion.png)](https://youtu.be/kdHdD7CGaAE)
 
-The video linked in the screenshot demonstrates the linear motion system in the game, which was user-tested with four people (including a player sensitive to simulator sickness) until a comfortable speed was achieved. The initial translation time was 3 seconds, which was extended to 7 seconds after testing.
+The video linked in the screenshot above demonstrates the linear motion system in the game, which was user-tested with four people (including a player sensitive to simulator sickness) until a comfortable speed was achieved. The initial translation time was 3 seconds, which was extended to 7 seconds after testing.
 
 #### Game Mechanics Bolstered by Audio and Video
 
 [![Feeback System](https://jrobalino.github.io/udacity-vr/img/feedback.png)](https://youtu.be/W2Mzx9Qdl5M)
 
-The video linked in the screenshot demonstrates the following feedback mechanisms:
+The video linked in the screenshot above demonstrates the following feedback mechanisms:
 
 - The event system disables when the sequence is being demonstrated to the player
 - Orbs light up and emit particles when the player gazes at them
@@ -164,16 +164,16 @@ The game keeps track of how many attempts it takes the player to complete the se
 
 ![Settings](https://jrobalino.github.io/udacity-vr/img/settings.png)
 
-The game features adjustable settings:
+The game features adjustable settings for increased replayability:
 
 **Puzzle Speed**
 
 This setting controls the delay between orb flashes when the pattern is displayed to the player.
 
-* *Easy* - 2 seconds
-* *Normal* - 1 second
-* *Hard* - 0.5 seconds
-* *Insane* - 0.25 seconds
+| *Easy* | 2 seconds |
+| *Normal* | 1 second |
+| *Hard* | 0.5 seconds |
+| *Insane* | 0.25 seconds |
 
 **Puzzle Length**
 
