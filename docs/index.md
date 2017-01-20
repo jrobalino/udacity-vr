@@ -48,10 +48,12 @@ Cooper spends most of his time solving paranormal murder mysteries. He has littl
 
 #### Sketches
 The following sketch represents the initial environment I envisioned for the game.
-(insert image)
+
+![Dungeon Sketch](https://jrobalino.github.io/udacity-vr/img/dungeon-sketch.jpg)
 
  The following sketches represent early ideas for the Start and Restart UI elements of the game.
-(insert image)
+
+![UI Sketch](https://jrobalino.github.io/udacity-vr/img/ui-sketch.jpg)
 
 ### User Testing
 The main goals of user testing were to ensure:
@@ -61,6 +63,14 @@ The main goals of user testing were to ensure:
 * The motion system did not induce simulator sickness.
 * The player understood how to play the game.
 * The player understood how to restart the game.
+
+#### Users
+| Name | Occupation | VR Experience |
+| :---: | :---: | :---: |
+| Francisco | Finance Manager | Regular gamer, some VR experience |
+| Stuart | Welder | Non-gamer, little VR experience |
+| Trini | TV Production Engineer | Mobile gamer, no VR experience |
+| Rusty | Systems Engineer | Casual gamer, no VR experience (and prone to simulator sickness)|
 
 I made the following changes as a result of user testing:
 
@@ -75,7 +85,9 @@ I made the following changes as a result of user testing:
 | Player Satisfaction | "Did I win?" | Add win audio and scoreboard |
 | Player Satisfaction | "Is that it?" | Give players the ability to  make the game longer or more difficult |
 
-Thanks to Francisco (regular gamer, some VR experience), Stuart (nongamer, little VR experience), Trini (mobile gamer, no VR experience), and Rusty (light gamer, no VR experience, and prone to simulator sickness) for being the brave test subjects!
+As an example of the value of user testing, the following images show the progression of the dungeon environment:
+
+Thanks again to Francisco, Stuart, Trini, and Rusty!
 
 ### Breakdown of Final Piece
 By way of an iterative design process and in response to user feedback, the final game features the following components:
