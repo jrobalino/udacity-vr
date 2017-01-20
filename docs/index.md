@@ -146,7 +146,7 @@ The video linked in the screenshot above demonstrates the linear motion system i
 - The initial translation time was 3 seconds, which was extended to 7 seconds after testing.
 - The initial motion path was not lined by trees. To increase the comfort of a particularly sensitive player, I lined up trees along the path to anchor objects in the player's periphery.
 
-> **Note:** When the player chooses to play again, the game teleports them back to the start. This mechanism proved comfortable for players and got to having fun quickly and efficiently.
+> **Note:** When the player chooses to play again, the game teleports them back to the start. This mechanism proved comfortable for players and returned them to the fun quickly and efficiently.
 
 #### Game Mechanics Bolstered by Audio and Video
 
