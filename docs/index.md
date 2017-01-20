@@ -65,6 +65,7 @@ The main goals of user testing were to ensure:
 * The player understood how to restart the game.
 
 #### Users
+
 | Name | Occupation | VR Experience |
 | :---: | :---: | :---: |
 | Francisco | Finance Manager | Regular gamer, some VR experience |
