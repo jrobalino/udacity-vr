@@ -92,9 +92,9 @@ Thanks again to Francisco, Stuart, Trini, and Rusty!
 | Player Satisfaction | "Is that it?" | Give players the ability to  make the game longer or more difficult |
 | Player Satisfaction | "I could play this all day!" | Success! |
 
-### Progression of the Dungeon Environment
+### Progression of the Dungeon Lighting
 
-To demonstrate the value of user testing, the following images illustrate the progression of the dungeon environment from initial conception to final product:
+To demonstrate the value of user testing, the following images illustrate the progression of the dungeon lighting from initial conception to final product, with the goal of creating a creepy environment:
 
 ![Dungeon - open, bright, snowy](https://jrobalino.github.io/udacity-vr/img/dungeon1.png)
 
@@ -130,6 +130,7 @@ The environment is cold and menacing by way of:
 - Bare, spindly trees
 - Green flames
 - A mountain skybox tinted to a darker shade of blue
+- Creepy music within the dungeon
 
 #### UI System Built into the Environment
 ![UI](https://jrobalino.github.io/udacity-vr/img/signs.png)
@@ -140,7 +141,12 @@ The UI system of wooden sign posts is believable within the environment, preserv
 
 [![Motion System](https://jrobalino.github.io/udacity-vr/img/motion.png)](https://youtu.be/kdHdD7CGaAE)
 
-The video linked in the screenshot above demonstrates the linear motion system in the game, which was user-tested with four people (including a player sensitive to simulator sickness) until a comfortable speed was achieved. The initial translation time was 3 seconds, which was extended to 7 seconds after testing.
+The video linked in the screenshot above demonstrates the linear motion system in the game, which was user-tested with four people (including a player sensitive to simulator sickness) until a comfortable speed was achieved.
+
+- The initial translation time was 3 seconds, which was extended to 7 seconds after testing.
+- The initial motion path was not lined by trees. To increase the comfort of a particularly sensitive player, I lined up trees along the path to anchor objects in the player's periphery.
+
+> **Note:** When the player chooses to play again, the game teleports them back to the start. This mechanism proved comfortable for players and got to having fun quickly and efficiently.
 
 #### Game Mechanics Bolstered by Audio and Video
 
