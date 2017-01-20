@@ -16,7 +16,7 @@ Puzzler is a mobile VR game that tests a player's visual memory skills. The game
 
 ### Game Video
 
-[![Finished Game](udacity-vr/img/video-link.png)](https://youtu.be/a4xqkIVxSNs)
+[![Finished Game](img/video-link.png)](https://youtu.be/a4xqkIVxSNs)
 
 ### Design Emphasis
 This project emphasizes the importance of VR design methodology. After completing this project, I gained a greater understanding of:
