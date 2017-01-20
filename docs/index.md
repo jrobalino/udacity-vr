@@ -181,7 +181,12 @@ This setting controls how many orbs light up in the sequence. Players can increa
 
 ### Conclusion
 
-
+Figuring out how to design a comfortable, intuitive, and rewarding game that allows players to experience what you had initially envisioned is an iterative process. Along the way, some of your assumptions prove correct, but others require adjustments. You also stumble upon unexpected design decisions by way of user testing or even mistakes. Documenting your process keeps you organized along the way, and in the end it's a pleasure to review all the progress you've made and have something to show to anyone curious in our work.
 
 #### Next Steps
-Probably more instructions, more levels or rooms
+
+If I was to improve the game, I'd start by focusing on the following elements:
+
+- Additional rooms (stacked vertically into a tall tower so the player can progress to the top)
+- A voice-over from the evil wizard, taunting players as they progressed through the dungeon
+- Limited failed attempts, challenging players to get to the end of the game with a finite amount of mistakes
