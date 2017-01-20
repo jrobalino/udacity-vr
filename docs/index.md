@@ -73,20 +73,43 @@ The main goals of user testing were to ensure:
 | Trini | TV Production Engineer | Mobile gamer, no VR experience |
 | Rusty | Systems Engineer | Casual gamer, no VR experience (and prone to simulator sickness)|
 
-I made the following changes as a result of user testing:
+### Results
 
 | Issue | Quote | Change |
 | :---: | :---: | :---: |
-| Scale | "I feel shorter than normal." | Move camera up |
-| Mood | "It's pretty bright." | Lower ambient lighting |
-| Mood | "I'm high up in the mountains. I should probably put on sunblock." | Change skybox tint settings to simulate dusk |
-| Simulator Sickness | "[startled] Where is this taking me? I'm going places now." | Lower speed of translation |
-| Simulator Sickness | "It's making me sick." | Add trees to cover periphery as player moves forward |
-| User Comfort | "I'm going to bonk myself!" | Increase height of doorway |
-| Player Satisfaction | "Did I win?" | Add win audio and scoreboard |
-| Player Satisfaction | "Is that it?" | Give players the ability to  make the game longer or more difficult |
+| Scale | > "I feel shorter than normal." | Move camera up |
+| Mood | > "It's pretty bright." | Lower ambient lighting |
+| Mood | > "I'm high up in the mountains. I should probably put on sunblock." | Change skybox tint settings to simulate dusk |
+| Simulator Sickness | > [startled] "Where is this taking me? I'm going places now." | Lower speed of translation |
+| Simulator Sickness | > "It's making me sick." | Add trees to cover periphery as player moves forward |
+| User Comfort | > "I'm going to bonk myself!" | Increase height of doorway |
+| Player Satisfaction | > "Did I win?" | Add win audio and scoreboard |
+| Player Satisfaction | > "Is that it?" | Give players the ability to  make the game longer or more difficult |
+| Player Satisfaction | > "I could play this all day!" | Success! |
+
+### Progression of Dungeon Environment
 
 As an example of the value of user testing, the following images show the progression of the dungeon environment:
+
+![Dungeon](https://jrobalino.github.io/udacity-vr/img/dungeon1.png)
+
+The inital dungeon featured a lot of open air and no lights. This gave it an abandoned air, but players did not find it foreboding.
+
+![Dungeon](https://jrobalino.github.io/udacity-vr/img/dungeon2.png)
+
+By closing the roof in and lowering the ambient light, the dungeon began to feel more menacing to players.
+
+![Dungeon](https://jrobalino.github.io/udacity-vr/img/dungeon3.png)
+
+Adding torches yielded mixed results. Some players found them mysterious, but others found the mood of the scene was "bright and cheery".
+
+![Dungeon](https://jrobalino.github.io/udacity-vr/img/dungeon4.png)
+
+Making the torch light green achieved a "spooky" result for all players.
+
+![Dungeon](https://jrobalino.github.io/udacity-vr/img/dungeon5.png)
+
+Adjusting the skybox tint to be darker and bluer made the environment feel like "dusk", with "low visibility", and "a send of cold".
 
 Thanks again to Francisco, Stuart, Trini, and Rusty!
 
