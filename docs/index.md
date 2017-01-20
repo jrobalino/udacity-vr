@@ -16,6 +16,8 @@ Puzzler is a mobile VR game that tests a player's visual memory skills. The game
 
 ### Game Video
 
+Click the screenshot to view a video of the game in action.
+
 [![Finished Game](https://jrobalino.github.io/udacity-vr/img/video-link.png)](https://youtu.be/a4xqkIVxSNs)
 
 ### Design Emphasis
@@ -47,11 +49,11 @@ This project emphasizes the importance of VR design methodology. After completin
 Cooper spends most of his time solving paranormal murder mysteries. He has little to no VR experience but is enthusiastic about trying new things, so long as he doesn't end up in another dimension. Some of his indulgences include good cherry pie, cups of black coffee, and speaking into a tape recorder to a woman named Diane.
 
 #### Sketches
-The following sketch represents the initial environment I envisioned for the game.
+The following sketch represents the initial environment I envisioned for the game. From the start, I knew I wanted the dungeon to be surrounded by menacing mountains, to be snowed in and feel abandoned, and to have a skylight to highlight the orbs.
 
 ![Dungeon Sketch](https://jrobalino.github.io/udacity-vr/img/dungeon-sketch.jpg)
 
- The following sketches represent early ideas for the Start and Restart UI elements of the game.
+ The following sketches represent early ideas for the Start and Restart UI elements of the game. In the end, I chose the wooden sign posts because felt like they were part of the environment as opposed to a separate game menu, which user testing confirmed.
 
 ![UI Sketch](https://jrobalino.github.io/udacity-vr/img/ui-sketch.jpg)
 
@@ -60,6 +62,7 @@ The main goals of user testing were to ensure:
 
 * The scale of the dungeon gave the player the sense of normal human height.
 * The environment was perceived as mysterious or spooky.
+* The environment did not lessen the immersion of players in any significant way.
 * The motion system did not induce simulator sickness.
 * The player understood how to play the game.
 * The player understood how to restart the game.
@@ -77,9 +80,9 @@ The main goals of user testing were to ensure:
 
 | Issue | Quote | Change |
 | :---: | :---: | :---: |
-| Scale | > "I feel shorter than normal." | Move camera up |
-| Mood | > "It's pretty bright." | Lower ambient lighting |
-| Mood | > "I'm high up in the mountains. I should probably put on sunblock." | Change skybox tint settings to simulate dusk |
+| Scale | > I feel shorter than normal. | Move camera up |
+| Mood | >"It's pretty bright." | Lower ambient lighting |
+| Mood | >I'm high up in the mountains. I should probably put on sunblock. | Change skybox tint settings to simulate dusk |
 | Simulator Sickness | > [startled] "Where is this taking me? I'm going places now." | Lower speed of translation |
 | Simulator Sickness | > "It's making me sick." | Add trees to cover periphery as player moves forward |
 | User Comfort | > "I'm going to bonk myself!" | Increase height of doorway |
@@ -93,7 +96,7 @@ As an example of the value of user testing, the following images show the progre
 
 ![Dungeon - open, bright, snowy](https://jrobalino.github.io/udacity-vr/img/dungeon1.png)
 
-The inital dungeon featured a lot of open air and no lights. This gave it an abandoned air, but players did not find it foreboding.
+The initial dungeon featured a lot of open air and no lights. This gave it an abandoned air, but players did not find it foreboding.
 
 ![Dungeon - darker, less open](https://jrobalino.github.io/udacity-vr/img/dungeon2.png)
 
@@ -137,13 +140,13 @@ The UI system of wooden sign posts is believable within the environment, preserv
 
 [![Motion System](https://jrobalino.github.io/udacity-vr/img/motion.png)](https://youtu.be/kdHdD7CGaAE)
 
-The video linked above demonstrates the linear motion system in the game, which was user-tested with four people (including a player sensitive to simulator sickness) until a comfortable speed was achieved. The initial translation time was 3 seconds, which was extended to 7 seconds after testing.
+The video linked in the screenshot demonstrates the linear motion system in the game, which was user-tested with four people (including a player sensitive to simulator sickness) until a comfortable speed was achieved. The initial translation time was 3 seconds, which was extended to 7 seconds after testing.
 
 #### Game Mechanics Bolstered by Audio and Video
 
 [![Feeback System](https://jrobalino.github.io/udacity-vr/img/feedback.png)](https://youtu.be/W2Mzx9Qdl5M)
 
-The game features the following feedback mechanisms:
+The video linked in the screenshot demonstrates the following feedback mechanisms:
 
 - The event system disables when the sequence is being demonstrated to the player
 - Orbs light up and emit particles when the player gazes at them
