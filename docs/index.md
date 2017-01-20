@@ -38,7 +38,7 @@ This project emphasizes the importance of VR design methodology. After completin
 > __*Statement of Purpose:*__ Puzzler is a mobile VR application that challenges new VR users to solve a familiar puzzle in a new way.
 
 #### Persona
-![Agent Cooper](/img/cooper.jpg)
+![Agent Cooper](img/cooper.jpg)
 
 **Cooper**, Special Agent
 
