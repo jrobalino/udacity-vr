@@ -91,52 +91,94 @@ The main goals of user testing were to ensure:
 
 As an example of the value of user testing, the following images show the progression of the dungeon environment:
 
-![Dungeon](https://jrobalino.github.io/udacity-vr/img/dungeon1.png)
+![Dungeon - open, bright, snowy](https://jrobalino.github.io/udacity-vr/img/dungeon1.png)
 
 The inital dungeon featured a lot of open air and no lights. This gave it an abandoned air, but players did not find it foreboding.
 
-![Dungeon](https://jrobalino.github.io/udacity-vr/img/dungeon2.png)
+![Dungeon - darker, less open](https://jrobalino.github.io/udacity-vr/img/dungeon2.png)
 
 By closing the roof in and lowering the ambient light, the dungeon began to feel more menacing to players.
 
-![Dungeon](https://jrobalino.github.io/udacity-vr/img/dungeon3.png)
+![Dungeon - lit by orange torches](https://jrobalino.github.io/udacity-vr/img/dungeon3.png)
 
 Adding torches yielded mixed results. Some players found them mysterious, but others found the mood of the scene was "bright and cheery".
 
-![Dungeon](https://jrobalino.github.io/udacity-vr/img/dungeon4.png)
+![Dungeon - lit by green torches](https://jrobalino.github.io/udacity-vr/img/dungeon4.png)
 
 Making the torch light green achieved a "spooky" result for all players.
 
-![Dungeon](https://jrobalino.github.io/udacity-vr/img/dungeon5.png)
+![Dungeon - darker skybox](https://jrobalino.github.io/udacity-vr/img/dungeon5.png)
 
-Adjusting the skybox tint to be darker and bluer made the environment feel like "dusk", with "low visibility", and "a send of cold".
+Adjusting the skybox tint to be darker and bluer made the environment feel like "dusk", with "low visibility", and "a send of cold". The mood achieved its desired effect.
 
 Thanks again to Francisco, Stuart, Trini, and Rusty!
 
 ### Breakdown of Final Piece
 By way of an iterative design process and in response to user feedback, the final game features the following components:
-(add screenshots)
 
 #### Snowy, Wind-Scourged Environment
-snow, wind audio, bare trees, green lights, tinted mountain skybox
+
+![Environment](https://jrobalino.github.io/udacity-vr/img/snowy.png)
+
+The environment is cold and menacing by way of:
+
+- A ground plane that looks like snow
+- Howling wind as the ambient noise
+- Bare, spindly trees
+- Green flames
+- A mountain skybox tinted to a darker shade of blue
 
 #### UI System Built into the Environment
-wooden signs to start and restart the game
+![UI](https://jrobalino.github.io/udacity-vr/img/signs.png)
+
+The UI system of wooden sign posts is believable within the environment, preserving a greater sense of immersion.
 
 #### Linear Motion System
-slowed down to seven seconds
+
+[![Motion System](https://jrobalino.github.io/udacity-vr/img/motion.png)](https://youtu.be/kdHdD7CGaAE)
+
+The video linked above demonstrates the linear motion system in the game, which was user-tested with four people (including a player sensitive to simulator sickness) until a comfortable speed was achieved. The initial translation time was 3 seconds, which was extended to 7 seconds after testing.
 
 #### Game Mechanics Bolstered by Audio and Video
-orbs light up with particle effects and sounds, audio confirms a correct choice or not and a win game sound, event system disabled when you need to wait for the pattern
+
+[![Feeback System](https://jrobalino.github.io/udacity-vr/img/feedback.png)](https://youtu.be/W2Mzx9Qdl5M)
+
+The game features the following feedback mechanisms:
+
+- The event system disables when the sequence is being demonstrated to the player
+- Orbs light up and emit particles when the player gazes at them
+- Correct selections play a reassuring audio clip
+- Incorrect selections play a shocking audio clip and disable the event system
+- A successfully completed sequence plays a celebratory audio clip
 
 #### Scoring System
-how many times it took you to pass the game
+
+![Scoring](https://jrobalino.github.io/udacity-vr/img/scoring.png)
+
+The game keeps track of how many attempts it takes the player to complete the sequence, and congratulates them if they win on their first attempt.
 
 #### Adjustable Game Settings
-puzzle speed and length
+
+![Settings](https://jrobalino.github.io/udacity-vr/img/settings.png)
+
+The game features adjustable settings:
+
+**Puzzle Speed**
+
+This setting controls the delay between orb flashes when the pattern is displayed to the player.
+
+* *Easy* - 2 seconds
+* *Normal* - 1 second
+* *Hard* - 0.5 seconds
+* *Insane* - 0.25 seconds
+
+**Puzzle Length**
+
+This setting controls how many orbs light up in the sequence. Players can increase this number indefinitely, but the minimum puzzle length is 3.
 
 ### Conclusion
-Blah
+
+
 
 #### Next Steps
 Probably more instructions, more levels or rooms
