@@ -76,6 +76,8 @@ The main goals of user testing were to ensure:
 | Trini | TV Production Engineer | Mobile gamer, no VR experience |
 | Rusty | Systems Engineer | Casual gamer, no VR experience (and prone to simulator sickness)|
 
+Thanks again to Francisco, Stuart, Trini, and Rusty!
+
 ### Results
 
 | Issue | Quote | Change |
@@ -90,9 +92,9 @@ The main goals of user testing were to ensure:
 | Player Satisfaction | > "Is that it?" | Give players the ability to  make the game longer or more difficult |
 | Player Satisfaction | > "I could play this all day!" | Success! |
 
-### Progression of Dungeon Environment
+### Progression of the Dungeon Environment
 
-As an example of the value of user testing, the following images show the progression of the dungeon environment:
+To demonstrate the value of user testing, the following images illustrate the progression of the dungeon environment from initial conception to final product:
 
 ![Dungeon - open, bright, snowy](https://jrobalino.github.io/udacity-vr/img/dungeon1.png)
 
@@ -112,12 +114,10 @@ Making the torch light green achieved a "spooky" result for all players.
 
 ![Dungeon - darker skybox](https://jrobalino.github.io/udacity-vr/img/dungeon5.png)
 
-Adjusting the skybox tint to be darker and bluer made the environment feel like "dusk", with "low visibility", and "a send of cold". The mood achieved its desired effect.
-
-Thanks again to Francisco, Stuart, Trini, and Rusty!
+Adjusting the skybox tint to be darker and bluer made the environment feel like "dusk", with "low visibility", and "a sense of cold". The mood achieved its desired effect.
 
 ### Breakdown of Final Piece
-By way of an iterative design process and in response to user feedback, the final game features the following components:
+Owing to an iterative design process and in response to user feedback, the final game features the following components:
 
 #### Snowy, Wind-Scourged Environment
 
