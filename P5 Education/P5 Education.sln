@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5 Education.Plugins", "P5 Education.Plugins.csproj", "{C39503F0-EFF3-E4BA-C52D-0B51646770F2}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5 Education", "P5 Education.csproj", "{1AE4568F-6248-7E44-232B-7F3A8BFB0B72}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5 Education.Editor", "P5 Education.Editor.csproj", "{CCCEEA68-28AC-2A8C-D7D4-D0EB6F6565E7}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C39503F0-EFF3-E4BA-C52D-0B51646770F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39503F0-EFF3-E4BA-C52D-0B51646770F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39503F0-EFF3-E4BA-C52D-0B51646770F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39503F0-EFF3-E4BA-C52D-0B51646770F2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1AE4568F-6248-7E44-232B-7F3A8BFB0B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1AE4568F-6248-7E44-232B-7F3A8BFB0B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AE4568F-6248-7E44-232B-7F3A8BFB0B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
