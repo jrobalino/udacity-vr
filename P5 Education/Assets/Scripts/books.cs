@@ -8,6 +8,8 @@ public class books : MonoBehaviour {
     public GameObject growObject;
     public GameObject growObject2;
     public float growthFactor = .005f;
+    public AudioSource hover;
+    public AudioSource changeScenes;
 
 
 	// Use this for initialization
@@ -23,6 +25,7 @@ public class books : MonoBehaviour {
 
     public void switchScene(string newScene)
     {
+        changeScenes.Play();
         SceneManager.LoadScene(newScene);
     }
 
@@ -32,6 +35,7 @@ public class books : MonoBehaviour {
         //growObject2.transform.localScale += new Vector3(growthFactor, growthFactor, growthFactor);
         ParticleSystem ps = growObject.GetComponentInChildren<ParticleSystem>();
         ps.Play();//Start emitting particles
+        hover.Play();
     }
 
     public void shrinkBook()
