@@ -13,7 +13,7 @@ Over one thousand K through twelve teachers were surveyed to determine what teac
 
 Effectiveness:
 
-There is an educational dictum goes as follows: You remember 10 percent of what you read, 20 percent of what you hear, 30 percent of what you see, and 80 percent of what you experience. The foundation for this manner of thinking is called Cognitive Constructivism, which is a widely accepted learning theory that holds that learning activities that are active, effective, and meaningful, result in superior learning versus those that are passive and non-engaging.
+There is an educational dictum that goes as follows: You remember 10 percent of what you read, 20 percent of what you hear, 30 percent of what you see, and 80 percent of what you experience. The foundation for this manner of thinking is called Cognitive Constructivism, which is a widely accepted learning theory that holds that learning activities that are active, effective, and meaningful, result in superior learning versus those that are passive and non-engaging.
 
 You can think of active learning as hands-on, fully engaged learning
 versus learning based on passive methods, such as reading a book or watching a teacher while they perform a task. The NASA Software Technology Branch was quoted as saying “By using VR in education, material now considered too difficult for many students and taught even to advanced learners only at the college level could be mastered by most students in middle school and high school.” 
@@ -27,6 +27,17 @@ The principal challenge to the adoption of virtual reality within the education 
 Another challenge to adoption of VR in education is the user experience. Issues related to simulator sickness, headset hygiene and sanitation, as well as durability for a classroom setting need to be addressed before the technology can be adopted for widespread use among children and young adults.
 
 The politics of education also, present a challenge to virtual reality adoption. School systems are notoriously bureaucratic, which will require virtual reality companies to maintain entrenched connections and acquire convincing third-party data before they can sell the relevant entities on the benefits of their products. In addition, virtual reality companies must consider whether their solutions further the gap between the rich and the poor if certain school systems or specific families cannot afford to pay for the cost, of VR.
+
+Intros:
+
+Welcome to the VR budget module. Play the audio narration to learn more about the forecasted revenue for virtual reality software within the education sector.
+
+Welcome to the teacher survey module. Play the audio narration to learn what teachers think about the potential of virtual reality in the classroom, based on a survey conducted by Samsung.
+
+Welcome to the effectiveness module. Play the audio narration to learn about what research says about the effectiveness of VR for education.
+
+Welcome to the challenges module. Play the audio narration to learn what obstacles need to be overcome before virtual reality can be considered viable in a classroom setting.
+
 
 Current Examples:
 Google Expeditions

@@ -25,7 +25,6 @@ public class books : MonoBehaviour {
 
     public void switchScene(string newScene)
     {
-        changeScenes.Play();
         SceneManager.LoadScene(newScene);
     }
 
