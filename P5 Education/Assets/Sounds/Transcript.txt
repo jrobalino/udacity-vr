@@ -51,3 +51,23 @@ Welcome to the effectiveness module. Play the audio narration to learn about wha
 Welcome to the challenges module. Play the audio narration to learn what obstacles need to be overcome before virtual reality can be considered viable in a classroom setting.
 
 Welcome to the examples module. Play the audio narration to learn about current uses of virtual reality in the education sector.
+
+Welcome to the sources module. Here you can view the primary research material used to create this VR experience. The sources include a report by Goldman Sachs on the future of virtual and augmented reality, a survey paid for by Samsung to investigate what teachers thought about virtual reality in the classroom, a meta-analysis study that analyzed the results of 67 other studies on the effectiveness of virtual reality as an educational tool, a study on the efficacy of active learning in the use of virtual environments, and a TED talk about Labster, which is a VR program that accurately simulates multi-million dollar university labs.
+
+Welcome to the quiz! Based on what you learned in this VR experience, select the correct answer for each of the questions that surround you.
+
+Sources:
+Goldman Sachs
+http://www.goldmansachs.com/our-thinking/pages/technology-driving-innovation-folder/virtual-and-augmented-reality/report.pdf
+
+Samsung Teacher Surveys
+http://www.slideshare.net/SamsungBusinessUSA/is-virtual-reality-ready-for-the-classroom
+
+Study
+http://3wayne3050.pbworks.com/w/file/fetch/94442417/Computers%20and%20Education.pdf
+
+Study 2
+http://files.eric.ed.gov/fulltext/EJ1058162.pdf
+
+Labster TED Talk
+https://www.ted.com/talks/michael_bodekaer_this_virtual_lab_will_revolutionize_science_class
