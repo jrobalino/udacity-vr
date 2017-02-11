@@ -20,6 +20,18 @@ versus learning based on passive methods, such as reading a book or watching a t
 
 Similarly, the vast majority of studies conducted in the matter provide evidence that virtual reality-based instruction is an effective means to enhance learning outcomes, particularly when game-based designs are used. However, further studies are needed to dive deeper into the results in order to determine which design variables and interaction effects are the most beneficial for students.
 
+Examples:
+
+There are already many examples of virtual reality being used successfully in an educational setting. One example is Google Expeditions, which is a program that enables teachers to bring students on virtual trips to places all around the world, like Machu Pee choo and Antarctica, and even outside our world, like the International Space Station. Expeditions are collections of VR content and supporting materials that can be used alongside existing curriculum. These trips are collections of virtual reality panoramas: 360 degree panoramas and 3D images, annotated with details, points of interest, and questions that make them easy to integrate into curriculum already used in schools.
+
+Another example of VR in education is the Virtuali Tee, which uses a special tee shirt and a mobile device to let users explore the anatomy of the human body in augmented reality. The program also lets users teleport inside the human body and follow along blood vessels as they learn about different bodily systems.
+
+Perhaps one of the most fascinating examples of virtual reality in the classroom is Labster. Labster collaborates with world-class universities such as Harvard and MIT to provide access to multi-million dollar labs in a virtual setting, allowing any university student to perform advanced experiments that would otherwise be prohibitively costly or expensive. Labster provides goals and experiments to complete, primarily focused on the subjects of Biology, Biochemistry, Genetics, Biotechnology and Chemistry. What's more, Labster hired game designers to add stories to many of the experiments in order to further engage students. For example, one of the stories has students solving a CSI murder case using their core science skills. There is a fascinating TED talk titled "This virtual lab will revolutionize science" that goes into more details about Labster, and it is highly encouraged that anyone interested in educational VR software watch the talk. During the presentation, the speaker demonstrates the results of a study that showed that using Labster in combination with traditional teaching methods effectively doubled the impact of teachers on student comprehension.
+
+Finally, there are educational VR experiences that arise totally by accident. A great example of this is the story of a student that used Google Tilt Brush to learn calculus. If you go to YouTube, you can watch hours of videos in which the student is completely immersed in the study of mathematics, which would not have been possible without the environment that Tilt Brush provides, which is distraction free and full of beautiful colors.
+
+With so many great educational experiences already on the market, the future of virtual reality in education is exciting to say the least.
+
 Challenges:
 
 The principal challenge to the adoption of virtual reality within the education sector is cost. The budgets of educational systems are fairly strapped as is, and VR is currently an expensive solution. In the long run, the costs of virtual reality technology will decrease, but investment is needed now in order to spur the development of quality content. This presents a chicken and egg problem, where school systems will not adopt VR solutions unless there is substantial content, and developers will not create said content unless there is a sizable installed user base.
@@ -38,8 +50,4 @@ Welcome to the effectiveness module. Play the audio narration to learn about wha
 
 Welcome to the challenges module. Play the audio narration to learn what obstacles need to be overcome before virtual reality can be considered viable in a classroom setting.
 
-
-Current Examples:
-Google Expeditions
-Empathy history games
-Tilt Brush calculus
+Welcome to the examples module. Play the audio narration to learn about current uses of virtual reality in the education sector.

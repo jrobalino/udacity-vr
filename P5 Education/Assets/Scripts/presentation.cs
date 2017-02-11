@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class presentation : MonoBehaviour {
 
+    public AudioSource introAudio;
     public AudioSource sceneAudio;
 
 	// Use this for initialization
@@ -24,6 +25,7 @@ public class presentation : MonoBehaviour {
 
     public void playAudio ()
     {
+        introAudio.Stop();
         sceneAudio.Play();
     }
 }
