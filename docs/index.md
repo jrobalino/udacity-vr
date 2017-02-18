@@ -161,7 +161,7 @@ The video linked in the screenshot above demonstrates the linear motion system i
 
 #### Game Mechanics Bolstered by Audio and Video
 
-**Click the screenshot to play video:**
+*Click the screenshot to play video:*
 
 <a href="https://youtu.be/W2Mzx9Qdl5M" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/feedback.png" alt="Feedback System"></a>
 
