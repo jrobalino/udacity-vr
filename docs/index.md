@@ -10,9 +10,9 @@ This page documents the projects completed for my Udacity VR Nanodegree program.
 
 ## Table of Contents
 
-* [Project 1: Introduction](#project-1:-introduction)
+* [Project 1: Introduction](#project-1-introduction)
 
-* [Project 4: Puzzler](#project-4:-puzzler)
+* [Project 4: Puzzler](#project-4-puzzler)
 
 ## Project 1: Introduction
 
