@@ -8,6 +8,15 @@ title: Udacity VR Nanodegree - Javier Robalino
 # Udacity VR Nanodegree - Javier Robalino
 This page documents the projects completed for my Udacity VR Nanodegree program.
 
+## Table of Contents
+
+* [Project 1: Introduction](#project-1:-introduction)
+
+* [Project 4: Puzzler](#project-4:-puzzler)
+
+## Project 1: Introduction
+
+
 ## Project 4: Puzzler
 
 > The wizard's dungeon has been abandoned for centuries, but dark magic still lingers within its stony confines. Rumors tell of shivering travelers seeking shelter in the dungeon, only to become forever trapped by the wizard's puzzle. How will you fare, pilgrim? Will you solve the ancient puzzle, or slowly turn to dust like all that came before you?
@@ -82,7 +91,7 @@ Thanks again to Francisco, Stuart, Trini, and Rusty!
 
 | Issue | Quote | Change |
 | :---: | :---: | :---: |
-| Scale | "I feel shorter than normal."" | Move camera up |
+| Scale | "I feel shorter than normal." | Move camera up |
 | Mood | "It's pretty bright." | Lower ambient lighting |
 | Mood | "I'm high up in the mountains. I should probably put on sunblock." | Change skybox tint settings to simulate dusk |
 | Simulator Sickness | [startled] "Where is this taking me? I'm going places now." | Lower speed of translation |
