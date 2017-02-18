@@ -10,7 +10,7 @@ This page documents the projects completed for my Udacity VR Nanodegree program.
 
 ## Table of Contents
 
-* <img src="https://jrobalino.github.io/udacity-vr/img/intro_thumbnail.jpg" width="250px"> <br> [Project 1: Introduction](#project-1-introduction)—A mobile VR experience that places the user in a virtual world and presents them with choices that alter their surroundings via C# scripts. The emphasis of this Udacity project was to introduce the basic components of a virtual reality application and to teach students how to successfully deploy a Unity project to a mobile device for viewing in a Cardboard headset.
+| <a href="#project-1-introduction"><img src="https://jrobalino.github.io/udacity-vr/img/intro_thumbnail.jpg" width="250px"></a> | [Project 1: Introduction](#project-1-introduction)—A mobile VR experience that places the user in a virtual world and presents them with choices that alter their surroundings via C# scripts. The emphasis of this Udacity project was to introduce the basic components of a virtual reality application and to teach students how to successfully deploy a Unity project to a mobile device for viewing in a Cardboard headset. |
 
 * [Project 4: Puzzler](#project-4-puzzler)—A mobile VR game that challenges the player to memorize a random sequence of orb flashes. The emphasis of this Udacity project was on VR design methodology: user personas, ergonomics, field of view, text choices, simulator sickness, motion paradigms, prototyping, scale, mood, user testing, iterative design, and documentation.
 
