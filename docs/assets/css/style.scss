@@ -2,5 +2,4 @@
 ---
 
 @import "{{ site.theme }}";
-.page-header { background-image: url("https://jrobalino.github.io/udacity-vr/img/hero-image.jpg"); }
-.bold-test { font-weight: bold; }
+.page-header { background-image: url("https://jrobalino.github.io/udacity-vr/img/hero-image.jpg"); background-size: 100%; }
