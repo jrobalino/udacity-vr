@@ -12,7 +12,7 @@ This page documents the projects completed for my Udacity VR Nanodegree program.
 
 <table><col width="30%"><col width="70%"><tr><td><a href="#project-1-introduction"><img src="https://jrobalino.github.io/udacity-vr/img/intro_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-1-introduction"><b>Project 1: Introduction</b></a>—A mobile VR experience that places the user in a virtual world and presents them with choices that alter their surroundings via C# scripts. The emphasis of this Udacity project was to introduce the basic components of a virtual reality application and to teach students how to successfully deploy a Unity project to a mobile device for viewing in a Cardboard headset.</td></tr></table>
 
-<table><col width="30%"><col width="70%"><tr><td><a href="#project-4-puzzler"><img src="https://jrobalino.github.io/udacity-vr/img/intro_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-4-puzzler"><b>Project 1: Introduction</b></a>—A mobile VR game that challenges the player to memorize a random sequence of orb flashes. The emphasis of this Udacity project was on VR design methodology: user personas, ergonomics, field of view, text choices, simulator sickness, motion paradigms, prototyping, scale, mood, user testing, iterative design, and documentation.</td></tr></table>
+<table><col width="30%"><col width="70%"><tr><td><a href="#project-4-puzzler"><img src="https://jrobalino.github.io/udacity-vr/img/puzzler_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-4-puzzler"><b>Project 4: Puzzler</b></a>—A mobile VR game that challenges the player to memorize a random sequence of orb flashes. The emphasis of this Udacity project was on VR design methodology: user personas, ergonomics, field of view, text choices, simulator sickness, motion paradigms, prototyping, scale, mood, user testing, iterative design, and documentation.</td></tr></table>
 
 ## Project 1: Introduction
 
@@ -27,7 +27,7 @@ Puzzler is a mobile VR game that tests a player's visual memory skills. The game
 
 Click the screenshot to view a video of the game in action.
 
-[![Finished Game](https://jrobalino.github.io/udacity-vr/img/video-link.png)](https://youtu.be/a4xqkIVxSNs)
+<a href="https://youtu.be/a4xqkIVxSNs" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/video-link.png" alt="Final Game"></a>
 
 ### Design Emphasis
 This project emphasizes the importance of VR design methodology. After completing this project, I gained a greater understanding of:
@@ -148,7 +148,9 @@ The UI system of wooden sign posts is believable within the environment, preserv
 
 #### Linear Motion System
 
-[![Motion System](https://jrobalino.github.io/udacity-vr/img/motion.png)](https://youtu.be/kdHdD7CGaAE)
+*Click the screenshot to play video:*
+
+<a href="https://youtu.be/kdHdD7CGaAE" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/motion.png" alt="Motion System"></a>
 
 The video linked in the screenshot above demonstrates the linear motion system in the game, which was user-tested with four people (including a player sensitive to simulator sickness) until a comfortable speed was achieved.
 
@@ -159,7 +161,9 @@ The video linked in the screenshot above demonstrates the linear motion system i
 
 #### Game Mechanics Bolstered by Audio and Video
 
-[![Feeback System](https://jrobalino.github.io/udacity-vr/img/feedback.png)](https://youtu.be/W2Mzx9Qdl5M)
+**Click the screenshot to play video:**
+
+<a href="https://youtu.be/W2Mzx9Qdl5M" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/feedback.png" alt="Feedback System"></a>
 
 The video linked in the screenshot above demonstrates the following feedback mechanisms:
 
