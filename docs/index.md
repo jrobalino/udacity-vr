@@ -29,7 +29,7 @@ Click the screenshot to view a video of the game in action.
 
 <a href="https://youtu.be/a4xqkIVxSNs" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/video-link.png" alt="Final Game"></a>
 
-### Design Emphasis
+### Project Emphasis: Design Methodology
 This project emphasizes the importance of VR design methodology. After completing this project, I gained a greater understanding of:
 
 * User Personas
