@@ -16,6 +16,8 @@ This page documents the projects completed for my Udacity VR Nanodegree program.
 
 ## Project 1: Introduction
 
+> The red cube taunts you. When you click it, it teleports randomly. If you try to grow it until it bursts, or shrink it until it vanishes, the laws of virtual physics get in your way. An inanimate object should not be this impudent. How will you react?
+
 The first project in the Udacity Virtual Reality Nanodegree was designed to teach the principles of VR technology, including optics, displays, stereopsis, headset tracking (3DOF v 6DOF), and the differences between the major hardware platforms. The project culminates in the creation of a virtual environment made of Unity primitives, terrain features, a skybox, and UI elements tied to C# scripts that allow the user to modify the world around them. Of course, one of the most valuable aspects of the project was learning to successfully build and deploy the application to a mobile phone.
 
 ### Game Video
