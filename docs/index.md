@@ -16,7 +16,7 @@ This page documents the projects completed for my Udacity VR Nanodegree program.
 
 ## Project 1: Introduction
 
-The first project in the Udacity Virtual Reality Nanodegree was designed to teach the principles of VR technology, including optics, displays, stereopsis, headset tracking (3DOF v 6DOF), and the differences between the major hardware platforms. The project resulted in a virtual environment made of Unity primitives, terrain features, a skybox, and UI elements tied to C# scripts that allow the user to modify the world around them. Of course, one of the most valuable aspects of the project was learning to successfully build and deploy the application to a mobile phone.
+The first project in the Udacity Virtual Reality Nanodegree was designed to teach the principles of VR technology, including optics, displays, stereopsis, headset tracking (3DOF v 6DOF), and the differences between the major hardware platforms. The project culminates in the creation of a virtual environment made of Unity primitives, terrain features, a skybox, and UI elements tied to C# scripts that allow the user to modify the world around them. Of course, one of the most valuable aspects of the project was learning to successfully build and deploy the application to a mobile phone.
 
 ### Game Video
 
@@ -24,7 +24,7 @@ Click the screenshot to view a video of the game in action.
 
 <a href="https://youtu.be/e-_Px46j6Ck" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/intro-video-link.png" alt="Final Game"></a>
 
-### Project Emphasis: GoogleVR SDK, Unity Basics, and Deployment
+### Project Emphasis: GoogleVR SDK, Unity Basics, and Mobile Deployment
 This project emphasizes the fundamental aspects of VR technology, the Unity editor, and deploying projects to mobile platforms.
 
 * VR Cameras in Unity using the GoogleVR SDK
@@ -40,36 +40,37 @@ The finished project has the following features:
 
 #### Instructions to the User
 
-![Instructions](https://jrobalino.github.io/udacity-vr/img/snowy.png)
+![Instructions](https://jrobalino.github.io/udacity-vr/img/intro-video-link.png)
 
 Simple instructions in clear lettering to help users get started.
 
 #### Interactive UI Elements
 ![UI](https://jrobalino.github.io/udacity-vr/img/intro-ui.png)
 
-The buttons located below the user are linked to different script functions which activate when the user clicks the screen through a Carboard headset. You can reset the game elements to their initial postion or recenter the view around the user's current gaze. You can also interact with the game cube (which changes color on hover) by growing or shrinking it, and with the skybox by changing the environment from day to night, and vice versa.
+The buttons located below the user are linked to different script functions which activate when the user clicks the screen through a Carboard headset. You can reset the game elements to their initial postion or recenter the view around the user's current gaze. You can also interact with the game cube (which changes color on hover) by growing or shrinking it, and interact with the skybox by changing the environment from day to night, and vice versa. Clicking directly on the cube teleports it randomly to another location in the environment.
 
-##### Grow the Cube
+#### Grow the Cube
 ![Big Cube](https://jrobalino.github.io/udacity-vr/img/intro-big-cube.png)
 
 If the cube gets too big, the game prevents you from growing it further and displays a warning:
 ![Big Cube Warning](https://jrobalino.github.io/udacity-vr/img/intro-big-warning.png)
 
-##### Shrink the Cube
+#### Shrink the Cube
 ![Small Cube](https://jrobalino.github.io/udacity-vr/img/intro-small-cube.png)
 
 If the cube gets too small, the game prevents you from shrinking it further, doing funny maths, and violating the fundamental laws of the universe:
+
 ![Small Cube Warning](https://jrobalino.github.io/udacity-vr/img/intro-small-warning.png)
 
-##### Carpe Diem (or not)
+#### Carpe Diem (or not)
 ![Night](https://jrobalino.github.io/udacity-vr/img/intro-night.png)
 
-If you've had it with the daytime, you can change select the option for nightime, which animates the sun setting in the virtual environment. You can always set it back to daytime if you change your mind.
+If you've had it with the unrelenting glow of daytime, you can select the option for sweet, sweet nightime, which animates the sun setting within the virtual environment (this happens a lot quicker than IRL). You can always set it back to daytime if you change your mind.
 
 
 ### Conclusion
 
-Unity is a great tool for designing VR experiences. The importance of clear text, comfortable UI interactions, and predictable script behavior should always be kept in mind. The build settings in Unity enable developers to design experiences for a variety of hardware platforms, ranging from mobile to high-performance headsets, but the developer must think of how to adjust these settings appropriately. Creating a mobile build from Unity did not prove difficult—although it *was* tricky to develop on a Windows machine and deploy to an iOS phone :)
+Unity is a great tool for designing VR experiences. The importance of clear text, comfortable UI interactions, and predictable script behavior should always be kept in mind. The build settings in Unity enable developers to design experiences for a variety of hardware platforms, ranging from mobile to high-performance headsets, but the developer must think of how to adjust these settings appropriately depending on the use case. Creating a mobile build from Unity did not prove difficult—although it *was* tricky to develop on a Windows machine and then deploy to an iOS phone :)
 
 ## Project 4: Puzzler
 
