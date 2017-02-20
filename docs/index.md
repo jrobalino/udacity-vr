@@ -53,6 +53,7 @@ The buttons located below the user are linked to different script functions whic
 ![Big Cube](https://jrobalino.github.io/udacity-vr/img/intro-big-cube.png)
 
 If the cube gets too big, the game prevents you from growing it further and displays a warning:
+
 ![Big Cube Warning](https://jrobalino.github.io/udacity-vr/img/intro-big-warning.png)
 
 #### Shrink the Cube
