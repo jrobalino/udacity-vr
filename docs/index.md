@@ -501,11 +501,41 @@ This project emphasizes different VR technologies as they exist today, and what 
 ### Breakdown of Final Piece
 The finished project has the following features:
 
-#### Five Separate Lessons
+#### Five Lessons on Virtual Reality in Education
 
-![Scoring](https://jrobalino.github.io/udacity-vr/img/scoring.png)
+![Lessons](https://jrobalino.github.io/udacity-vr/img/education-lessons.png)
 
-The game uses a waypoint navigation system that allows players to traverse the maze by hovering their gaze over specially-positioned cubes. The reticle grows to indicate that players can press the Cardboard button to interact with the cube. When they do, the game teleports them to the new location and plays an audible ding.
+There are five lessons that users can choose:
+
+- Budget for VR
+- Teacher Surveys
+- Effectiveness
+- Current Examples
+- Challenges
+
+When users hover over a book, particle effects start emitting from the center, indicating you can use the Cardboard button to enter the lesson. Each lessons transports the user to a distraction-free zone with audio and visual material.
+
+![Budget](https://jrobalino.github.io/udacity-vr/img/education-budget.png)
+
+Using UI buttons, users can play the narration for each section, or choose to return to the classroom at any time.
+
+#### Supporting Materials from Third-Party Sources
+
+Throughout the learning experience, users are presented with materials from research papers, surveys, educational press releases, and TED Talks.
+
+<img src="https://jrobalino.github.io/udacity-vr/img/education-surveys.png" width="900px">
+
+<img src="https://jrobalino.github.io/udacity-vr/img/education-quote.png" width="900px">
+
+<img src="https://jrobalino.github.io/udacity-vr/img/education-examples.png" width="900px">
+
+<img src="https://jrobalino.github.io/udacity-vr/img/education-examples-2.png" width="900px">
+
+#### Quiz
+
+![Quiz](https://jrobalino.github.io/udacity-vr/img/education-quiz.png)
+
+When they are done learning, users can test their knowledge with a quiz. If they get a question wrong, the game plays audio that tells them as much, and lets them try again. If they get the question correct, the game congratulates them and marks the question as completed.
 
 ### Conclusion
 
