@@ -231,19 +231,29 @@ Players can explore the maze to find coins hidden in corners of the maze that ma
 
 The door leading out of the maze is locked when the game begins. If players try to open it, an audio source plays suggesting they attempt something different.
 
+*Click the screenshot to play video.*
+
 <a href="https://youtu.be/5P6SWP9364g" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/maze-locked-door.png" alt="Locked Door"></a>
 
 To unlock the door, the player must find the key buried within the heart of the maze. The key hovers left and right above the ground to make it trickier for players to collect it. If a player clicks on the key successfully, the key disappears in a large flurry of light, signalling greater importance relative to the coins.
 
+*Click the screenshot to play video.*
+
 <a href="https://youtu.be/nai2Fihdixw" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/maze-key.png" alt="Maze Key"></a>
 
-Once the key is collected, players can return to the door and exit the maze. When they interact with the door, it rises up smoothly and they are allowed to pass into a temple area, where among other things, they are instructed about consciousness.
+With key in hand, the door rises up smoothly when players interact with it. When it is open, players can pass into a temple area, where among other things, they are instructed about consciousness.
+
+*Click the screenshot to play video.*
 
 <a href="https://youtu.be/HRBA99P8j90" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/maze-unlocked-door.png" alt="Unlocked Door"></a>
 
 #### Scoring System
 
-Mention it lets you replay
+*Click the screenshot to play video.*
+
+<a href="https://youtu.be/nBijhk1BMSw" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/maze-score.png" alt="Maze Score"></a>
+
+There are seven coins scattered throughout the maze. The game keeps track of how many coins that player has collected by the time they reach the temple. Based on the fraction of coins collected, the players receives an Apperception score. If they would like to raise their score, they can choose to play again, which resets the game variables to their initial state and returns the player to the starting point of the maze.
 
 ### Conclusion
 
