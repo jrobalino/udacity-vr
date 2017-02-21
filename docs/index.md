@@ -14,6 +14,8 @@ This page documents the projects completed for the core section of my Udacity VR
 
 <table><col width="30%"><col width="70%"><tr><td><a href="#project-2-modern-apartment"><img src="https://jrobalino.github.io/udacity-vr/img/apartment_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-2-modern-apartment"><b>Project 2: Modern Apartment</b></a>—A mobile VR experience that places users within a homy, modern apartment in a happening city. The emphasis of this Udacity project is on creating high-performing virtual environments, with well-placed objects, well-chosen materials and textures, proper lighting for the build device, and the right amount of animation and ambient sound to bring the space to life.</td></tr></table>
 
+<table><col width="30%"><col width="70%"><tr><td><a href="#project-3-maze"><img src="https://jrobalino.github.io/udacity-vr/img/maze_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-3-maze"><b>Project 3: Maze</b></a>—A mobile VR game that pits players within a vast maze. To escape, players must navigate the maze without getting lost, find a key, and then escape through the exit door. The emphasis of this Udacity project is to use advanced VR scripting to control navigation, audio, animations, game objects, physics, UI interfaces, and game mechanics.</td></tr></table>
+
 <table><col width="30%"><col width="70%"><tr><td><a href="#project-4-puzzler"><img src="https://jrobalino.github.io/udacity-vr/img/puzzler_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-4-puzzler"><b>Project 4: Puzzler</b></a>—A mobile VR game that challenges the player to memorize a random sequence of orb flashes. The emphasis of this Udacity project is on VR design methodology: user personas, ergonomics, field of view, text choices, simulator sickness, motion paradigms, prototyping, scale, mood, user testing, iterative design, and documentation.</td></tr></table>
 
 ## Project 1: Introduction
@@ -81,6 +83,93 @@ Unity is a great tool for designing VR experiences. The importance of clear text
 > The apartment feels like home but you can't remember who you are. Desperately, you scour the corners of the beautiful studio, inspecting your book collection, computer, and kitchen items for a clue to your past. But the place is kept devastatingly sterile, the most revealing details no more personal than your selection in fruit, and you just can't remember anything. The sounds of the city wash in and out of the room, a whole world going on without you. From time to time you notice that the globe on your counter begins to spin. Could it contain the key to solving the mystery of you?
 
 This project teaches the fundamentals of using Unity to build beautiful and performant VR scenes. The project demonstrates complex game objects positioned within a modern apartment space at realistic scales and relative locations. The apartment is well-lit by different types of Unity lights, includes a waypoint system that allows users to move around the space, and includes animations to make the scene more engaging. Although the project strives to create a beautiful scene, it also requires that performance remain high enough to run well on mobile devices.
+
+### Game Video
+
+Click the screenshot to view a video of the game in action.
+
+<a href="https://youtu.be/327mMdN7cOQ" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/apartment-1.png" alt="Final Game"></a>
+
+### Project Emphasis: 3D Objects, Animations, Lighting, and Performance
+This project emphasizes how to create and animate objects in Unity, as well as how to light them well, all while optimizing performance.
+
+* Game Objects
+* Meshes
+* Transforms
+* Materials
+* Textures
+* Shaders
+* Animations
+* Animation Controllers
+* State Machines
+* Camera Deep Dive: layers, culling mask, lens separation distance, sensors, SDKs
+* Unity lights (area, point, spotlight, directional)
+* Real-time v. Baked Lighting
+* Waypoint teleportation system
+
+### Breakdown of Final Piece
+The finished project has the following features:
+
+#### Dozens of Models
+
+The models in this project render sofas, rugs, a TV, a bookshelf with individual books, a clock, a computer desk, a kitchen table and chairs, a fridge, a counter, a fruit bowl, a globe, cabinets, a door, walls, a ceiling, and a floor.
+
+![Bookshelf](https://jrobalino.github.io/udacity-vr/img/apartment-2.png)
+
+![Computer](https://jrobalino.github.io/udacity-vr/img/apartment-3.png)
+
+![TV](https://jrobalino.github.io/udacity-vr/img/apartment-4.png)
+
+#### Real-Time and Baked Lighting
+
+The apartment gets its ambience from baked area lights of different colors, a baked spotlight, a real-time directional light simulating the sun, and a custom skybox.
+
+![Living Room](https://jrobalino.github.io/udacity-vr/img/apartment-5.png)
+
+![Kitchen](https://jrobalino.github.io/udacity-vr/img/apartment-7.png)
+
+![Fruit](https://jrobalino.github.io/udacity-vr/img/apartment-6.png)
+
+#### Animation and Waypoint System
+
+As the player clicks the Cardboard button, they are teleported to one of four waypoints in the apartment. Every other time the user teleports, the globe starts or stops spinning about its axis. Ambient city sounds play in the background to give the apartment a more dynamic feel.
+
+![Globe](https://jrobalino.github.io/udacity-vr/img/apartment-8.png)
+
+#### High Mobile VR Performance
+
+To optimize the experience for mobile devices, the project uses baked lighting (with the exception of the one directional light) and shaders optimized for mobile.
+
+The quality settings in the project were set to:
+
+| Pixel light count | 0 |
+| Texture Quality | Full Res |
+| Anti Aliasing | 2x Multi Sampling |
+| Soft Particles | Off |
+| Realtime Rendering Probes | Off |
+| Billboard Face Camera Position | Off |
+| Shadows | Off |
+| Blend Weights | 1 bone |
+
+The lighting  settings in the project were set to:
+
+| Precomputed Realtime GI | Off |
+| Directional Mode | Non-Directional |
+| Bake Resoultuion | 80 texels per unit |
+
+### Conclusion
+
+Obtaining 3D models that fit the application is critical to a virtual reality project. While models can have complex meshes, compelling textures, and high-quality shaders, it is important to limit the performance requirements when developing for VR. Doing so helps guarantee high frame rates and a pleasurable user experience on the intended device. In addition to well-placed lights of different colors and intensities, animations and audio can help bring a virtual environment to life.
+
+#### Next Steps
+
+Turn this into a game where you have to discover clues about your forgotten identity!
+
+## Project 3: Maze
+
+> The apartment feels like home but you can't remember who you are. Desperately, you scour the corners of the beautiful studio, inspecting your book collection, computer, and kitchen items for a clue to your past. But the place is kept devastatingly sterile, the most revealing details no more personal than your selection in fruit, and you just can't remember anything. The sounds of the city wash in and out of the room, a whole world going on without you. From time to time you notice that the globe on your counter begins to spin. Could it contain the key to solving the mystery of you?
+
+This project dives into scripting and the advanced mechanics that programming languages offer VR applications. The game takes place within a vast, Western world where the player must navigate a through a mysterious maze. The player can unlock a door at the end of the maze but only if they first find a key hidden elsewhere in the maze. In addition to the key, the player can collect up to seven coins if they take the time to explore the maze, and their final score is based upon how many coins they find.
 
 ### Game Video
 
