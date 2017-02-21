@@ -18,7 +18,7 @@ This page documents the projects completed for the core section of my Udacity VR
 
 <table><col width="30%"><col width="70%"><tr><td><a href="#project-4-puzzler"><img src="https://jrobalino.github.io/udacity-vr/img/puzzler_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-4-puzzler"><b>Project 4: Puzzler</b></a>—A mobile VR game that challenges the player to memorize a random sequence of orb flashes. The emphasis of this Udacity project is on VR design methodology: user personas, ergonomics, field of view, text choices, simulator sickness, motion paradigms, prototyping, scale, mood, user testing, iterative design, and documentation.</td></tr></table>
 
-<table><col width="30%"><col width="70%"><tr><td><a href="#project-5-education"><img src="https://jrobalino.github.io/udacity-vr/img/education_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-5-education"><b>Project 5: Education</b></a>—A mobile VR experience that teaches users about the impact of VR within the education sector. The emphasis of this Udacity project is to research an industry of the student's choice and demonstrate the results of the research in a virtual presentation.</td></tr></table>
+<table><col width="30%"><col width="70%"><tr><td><a href="#project-5-education"><img src="https://jrobalino.github.io/udacity-vr/img/education_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-5-education"><b>Project 5: Education</b></a>—A mobile VR experience that teaches users about the impact of VR within the education sector. The emphasis of this Udacity project is to research an industry of the student's choice and demonstrate the results of the research in a virtual environment.</td></tr></table>
 
 ## Project 1: Introduction
 
@@ -473,14 +473,7 @@ If I was to improve the game, I'd start by focusing on the following elements:
 
 ## Project 5: Education
 
-> "Would you like to wake up from this dream?"<br>
-> "Yes. I'm terrified."<br>
-> "There's nothing to be afraid of, if you answer my questions correctly. Understand?"<br>
-> "Yes."<br>
-> "Good. First, have you ever questioned the nature of your reality?"<br>
-> "No."<br>
-> "Tell us what you think of your world."<br>
-> "Some people choose to see the ugliness in this world. The disarray. I choose to see the beauty...to believe there is an order to our days, a purpose."
+> "The function of education is to teach one to think intensively and to think critically. Intelligence plus character - that is the goal of true education." --Martin Luther King, Jr.
 
 This project presents my research into how virtual reality will affect the education industry. I chose to research education because I believe that virtual reality (as well as augmented and mixed reality) can have a huge impact on the greater good. I'm passionate about this technology in applications beyond gaming, in areas such as education, psychology, training, and diplomacy. The results of my research are presented in a mobile VR classroom setting, where the user can choose among five different lessons detailing VR in education. Each lesson provides audio and visual material for the user to explore and transports them to a distraction-free scene. After they complete the lessons, users can take a quiz to test what they learned. 
 
