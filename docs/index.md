@@ -10,13 +10,15 @@ This page documents the projects completed for my Udacity VR Nanodegree program.
 
 ## Table of Contents
 
-<table><col width="30%"><col width="70%"><tr><td><a href="#project-1-introduction"><img src="https://jrobalino.github.io/udacity-vr/img/intro_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-1-introduction"><b>Project 1: Introduction</b></a>—A mobile VR experience that places the user in a virtual world and presents them with choices that alter their surroundings via C# scripts. The emphasis of this Udacity project was to introduce the basic components of a virtual reality application and to teach students how to successfully deploy a Unity project to a mobile device for viewing in a Cardboard headset.</td></tr></table>
+<table><col width="30%"><col width="70%"><tr><td><a href="#project-1-introduction"><img src="https://jrobalino.github.io/udacity-vr/img/intro_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-1-introduction"><b>Project 1: Introduction</b></a>—A mobile VR experience that places the user in a virtual world and presents them with choices that alter their surroundings via C# scripts. The emphasis of this Udacity project is to introduce the basic components of a virtual reality application and to teach students how to successfully deploy a Unity project to a mobile device for viewing in a Cardboard headset.</td></tr></table>
 
-<table><col width="30%"><col width="70%"><tr><td><a href="#project-4-puzzler"><img src="https://jrobalino.github.io/udacity-vr/img/puzzler_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-4-puzzler"><b>Project 4: Puzzler</b></a>—A mobile VR game that challenges the player to memorize a random sequence of orb flashes. The emphasis of this Udacity project was on VR design methodology: user personas, ergonomics, field of view, text choices, simulator sickness, motion paradigms, prototyping, scale, mood, user testing, iterative design, and documentation.</td></tr></table>
+<table><col width="30%"><col width="70%"><tr><td><a href="#project-2-modern-apartment"><img src="https://jrobalino.github.io/udacity-vr/img/apartment_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-2-modern-apartment"><b>Project 2: Modern Apartment</b></a>—A mobile VR experience that places users within a homy, modern apartment in a happening city. The emphasis of this Udacity project is on creating high-performing virtual environments, with well-placed objects, well-chosen materials and textures, proper lighting for the build device, and the right amount of animation and ambient sound to bring the space to life.</td></tr></table>
+
+<table><col width="30%"><col width="70%"><tr><td><a href="#project-4-puzzler"><img src="https://jrobalino.github.io/udacity-vr/img/puzzler_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-4-puzzler"><b>Project 4: Puzzler</b></a>—A mobile VR game that challenges the player to memorize a random sequence of orb flashes. The emphasis of this Udacity project is on VR design methodology: user personas, ergonomics, field of view, text choices, simulator sickness, motion paradigms, prototyping, scale, mood, user testing, iterative design, and documentation.</td></tr></table>
 
 ## Project 1: Introduction
 
-> The red cube taunts you. When you click it, it teleports randomly. If you try to grow it until it bursts, or shrink it until it vanishes, the laws of virtual physics get in your way. An inanimate object should not be this impudent. How will you react?
+> The red cube taunts you as it hovers in the air, coyly emitting particles. When you click it, it teleports randomly. If you try to grow it until it bursts, or shrink it until it vanishes, the laws of virtual physics get in your way. An inanimate object should not be this impudent. How will you react?
 
 The first project in the Udacity Virtual Reality Nanodegree was designed to teach the principles of VR technology, including optics, displays, stereopsis, headset tracking (3DOF v 6DOF), and the differences between the major hardware platforms. The project culminates in the creation of a virtual environment made of Unity primitives, terrain features, a skybox, and UI elements tied to C# scripts that allow the user to modify the world around them. Of course, one of the most valuable aspects of the project was learning to successfully build and deploy the application to a mobile phone.
 
@@ -36,6 +38,72 @@ This project emphasizes the fundamental aspects of VR technology, the Unity edit
 * User interactions via scripts
 * Build settings
 * Deploying to mobile platforms
+
+### Breakdown of Final Piece
+The finished project has the following features:
+
+#### Instructions to the User
+
+![Instructions](https://jrobalino.github.io/udacity-vr/img/intro-video-link.png)
+
+Simple instructions in clear lettering to help users get started.
+
+#### Interactive UI Elements
+![UI](https://jrobalino.github.io/udacity-vr/img/intro-ui.png)
+
+The buttons located below the user are linked to different script functions which activate when the user clicks the screen through a Carboard headset. You can reset the game elements to their initial postion or recenter the view around the user's current gaze. You can also interact with the game cube (which changes color on hover) by growing or shrinking it, and interact with the skybox by changing the environment from day to night, and vice versa. Clicking directly on the cube teleports it randomly to another location in the environment.
+
+#### Grow the Cube
+![Big Cube](https://jrobalino.github.io/udacity-vr/img/intro-big-cube.png)
+
+If the cube gets too big, the game prevents you from growing it further and displays a warning:
+
+![Big Cube Warning](https://jrobalino.github.io/udacity-vr/img/intro-big-warning.png)
+
+#### Shrink the Cube
+![Small Cube](https://jrobalino.github.io/udacity-vr/img/intro-small-cube.png)
+
+If the cube gets too small, the game prevents you from shrinking it further, doing funny maths, and violating the fundamental laws of the universe:
+
+![Small Cube Warning](https://jrobalino.github.io/udacity-vr/img/intro-small-warning.png)
+
+#### Carpe Diem (or not)
+![Night](https://jrobalino.github.io/udacity-vr/img/intro-night.png)
+
+If you've had it with the unrelenting glow of daytime, you can select the option for sweet, sweet nightime, which animates the sun setting within the virtual environment (this happens a lot quicker than IRL). You can always set it back to daytime if you change your mind.
+
+
+### Conclusion
+
+Unity is a great tool for designing VR experiences. The importance of clear text, comfortable UI interactions, and predictable script behavior should always be kept in mind. The build settings in Unity enable developers to design experiences for a variety of hardware platforms, ranging from mobile to high-performance headsets, but the developer must think of how to adjust these settings appropriately depending on the use case. Creating a mobile build from Unity did not prove difficult—although it *was* tricky to develop on a Windows machine and then deploy to an iOS phone :)
+
+## Project 2: Modern Apartment
+
+> The red cube taunts you as it hovers in the air, coyly emitting particles. When you click it, it teleports randomly. If you try to grow it until it bursts, or shrink it until it vanishes, the laws of virtual physics get in your way. An inanimate object should not be this impudent. How will you react?
+
+This project teaches the fundamentals of using Unity to build beautiful and performant VR scenes. The project demonstrates game objects, transforms, and materials positioned within a modern apartment space at realistic scales and relative locations. The apartment is well-lit by different types of Unity lights, includes a waypoint system that allows users to move around the space, and includes animations to make the scene more engaging. Although the project strives to create a beautiful scene, it also requires that performance remain high enough to run well on mobile devices.
+
+### Game Video
+
+Click the screenshot to view a video of the game in action.
+
+<a href="https://youtu.be/e-_Px46j6Ck" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/intro-video-link.png" alt="Final Game"></a>
+
+### Project Emphasis: 3D Objects, Animations, Lighting, and Performance
+This project emphasizes how to create and animate objects in Unity, as well as how to light them well, all while optimizing performance.
+
+* Game Objects
+* Meshes
+* Transforms
+* Materials
+* Textures
+* Shaders
+* Animations
+* Animation Controllers
+* State Machines
+* Camera Deep Dive: layers, culling mask, lens separation distance, sensors, SDKs
+* Unity lights (area, point, spotlight, directional)
+* Real-time v. Baked Lighting
 
 ### Breakdown of Final Piece
 The finished project has the following features:
