@@ -221,13 +221,25 @@ The game uses a waypoint navigation system that allows players to traverse the m
 
 #### Collectable Coins
 
+*Click the screenshot to play video.*
+
 <a href="https://youtu.be/-T-l8nRBB_w" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/maze-coin.png" alt="Collectable Coins"></a>
 
 Players can explore the maze to find coins hidden in corners of the maze that may not be part of the main path. This adds some amount of replayability to the game, as their final score is based on the number of coins they find. When a coin is selected using the Cardboard button, a chime is played and the coin disappears in a flurry of lights.
 
 #### Key that Unlocks Door
 
-Mention audio before and after and animation. Mention key animatio and audio being different than coin.
+The door leading out of the maze is locked when the game begins. If players try to open it, an audio source plays suggesting they attempt something different.
+
+<a href="https://youtu.be/5P6SWP9364g" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/maze-locked-door.png" alt="Locked Door"></a>
+
+To unlock the door, the player must find the key buried within the heart of the maze. The key hovers left and right above the ground to make it trickier for players to collect it. If a player clicks on the key successfully, the key disappears in a large flurry of light, signalling greater importance relative to the coins.
+
+<a href="https://youtu.be/nai2Fihdixw" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/maze-key.png" alt="Maze Key"></a>
+
+Once the key is collected, players can return to the door and exit the maze. When they interact with the door, it rises up smoothly and they are allowed to pass into a temple area, where among other things, they are instructed about consciousness.
+
+<a href="https://youtu.be/HRBA99P8j90" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/maze-unlocked-door.png" alt="Unlocked Door"></a>
 
 #### Scoring System
 
