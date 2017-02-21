@@ -134,6 +134,27 @@ As the player clicks the Cardboard button, they are teleported to one of four wa
 
 ![Globe](https://jrobalino.github.io/udacity-vr/img/apartment-8.png)
 
+#### High Mobile VR Performance
+
+To optimize the experience for mobile devices, the project uses baked lighting (with the exception of the one directional light) and shaders optimized for mobile.
+
+The quality settings in the project were set to:
+
+| Pixel light count | 0 |
+| Texture Quality | Full Res |
+| Anti Aliasing | 2x Multi Sampling |
+| Soft Particles | Off |
+| Realtime Rendering Probes | Off |
+| Billboard Face Camera Position | Off |
+| Shadows | Off |
+| Blend Weights | 1 bone |
+
+The lighting  settings in the project were set to:
+
+| Precomputed Realtime GI | Off |
+| Directional Mode | Non-Directional |
+| Bake Resoultuion | 80 texels per unit |
+
 ### Conclusion
 
 Unity is a great tool for designing VR experiences. The importance of clear text, comfortable UI interactions, and predictable script behavior should always be kept in mind. The build settings in Unity enable developers to design experiences for a variety of hardware platforms, ranging from mobile to high-performance headsets, but the developer must think of how to adjust these settings appropriately depending on the use case. Creating a mobile build from Unity did not prove difficult—although it *was* tricky to develop on a Windows machine and then deploy to an iOS phone :)
