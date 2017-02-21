@@ -184,22 +184,29 @@ Click the screenshot to view a video of the game in action.
 
 <a href="https://youtu.be/327mMdN7cOQ" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/apartment-1.png" alt="Final Game"></a>
 
-### Project Emphasis: 3D Objects, Animations, Lighting, and Performance
-This project emphasizes how to create and animate objects in Unity, as well as how to light them well, all while optimizing performance.
+### Project Emphasis: Advanced VR Scripting
+This project emphasizes the power that scripts add to any VR application or game. It also dives deeper into fundamental Unity components, such as quaternions, prefabs, timing functions, smooth animations, UI elements, physics, and audio sources.
 
-* Game Objects
-* Meshes
-* Transforms
-* Materials
-* Textures
-* Shaders
-* Animations
-* Animation Controllers
-* State Machines
-* Camera Deep Dive: layers, culling mask, lens separation distance, sensors, SDKs
-* Unity lights (area, point, spotlight, directional)
-* Real-time v. Baked Lighting
-* Waypoint teleportation system
+* Variables
+* Arrays
+* Conditionals
+* Loops
+* Methods
+* Quaternions
+* Fixed v Delta time
+* Prefabs
+* Advanced UI
+* Scene changes via script
+* Event System
+* LERP / SLERP
+* Colliders
+* Raycasting
+* Audio Sources
+* Waypoints
+* Teleportation speed
+* Dynamic shaders
+* Flocking algorithms
+* API Documentation
 
 ### Breakdown of Final Piece
 The finished project has the following features:
