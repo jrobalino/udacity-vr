@@ -6,7 +6,7 @@ title: Udacity VR Nanodegree - Javier Robalino
 ---
 
 # Udacity VR Nanodegree - Javier Robalino
-This page documents the projects completed for my Udacity VR Nanodegree program.
+This page documents the projects completed for the core section of my Udacity VR Nanodegree program.
 
 ## Table of Contents
 
@@ -79,9 +79,9 @@ Unity is a great tool for designing VR experiences. The importance of clear text
 
 ## Project 2: Modern Apartment
 
-> The red cube taunts you as it hovers in the air, coyly emitting particles. When you click it, it teleports randomly. If you try to grow it until it bursts, or shrink it until it vanishes, the laws of virtual physics get in your way. An inanimate object should not be this impudent. How will you react?
+> The apartment feels like home but you can't remember who you are. Desperately, you scour the corners of the beautiful studio, inspecting your book collection, computer, and kitchen items for a clue of your past. But the place is kept devastatingly sterile, the most revealing details no more personal than your selection in fruit, and you just can't remember anything. The sounds of the city wash in and out of the room, a whole world going on without you. From time to time you notice that the globe on your counter begins to spin. Could it contain the key to solving the mystery of you?
 
-This project teaches the fundamentals of using Unity to build beautiful and performant VR scenes. The project demonstrates game objects, transforms, and materials positioned within a modern apartment space at realistic scales and relative locations. The apartment is well-lit by different types of Unity lights, includes a waypoint system that allows users to move around the space, and includes animations to make the scene more engaging. Although the project strives to create a beautiful scene, it also requires that performance remain high enough to run well on mobile devices.
+This project teaches the fundamentals of using Unity to build beautiful and performant VR scenes. The project demonstrates complex game objects positioned within a modern apartment space at realistic scales and relative locations. The apartment is well-lit by different types of Unity lights, includes a waypoint system that allows users to move around the space, and includes animations to make the scene more engaging. Although the project strives to create a beautiful scene, it also requires that performance remain high enough to run well on mobile devices.
 
 ### Game Video
 
@@ -104,6 +104,7 @@ This project emphasizes how to create and animate objects in Unity, as well as h
 * Camera Deep Dive: layers, culling mask, lens separation distance, sensors, SDKs
 * Unity lights (area, point, spotlight, directional)
 * Real-time v. Baked Lighting
+* Waypoint teleportation system
 
 ### Breakdown of Final Piece
 The finished project has the following features:
