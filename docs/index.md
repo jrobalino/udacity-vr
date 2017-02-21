@@ -507,11 +507,11 @@ The finished project has the following features:
 
 There are five lessons that users can choose:
 
-- Budget for VR
-- Teacher Surveys
-- Effectiveness
-- Current Examples
-- Challenges
+- **Budget for VR**—Breaks down the forecasted revenue for educational VR software as conservatively predicted by Goldman Sachs.
+- **Teacher Surveys**—Presents the results of a survey that asked over 1000 K-12 teachers what they thought about VR in education.
+- **Effectiveness**—Discusses the results of existing studies on the effectiveness of VR in education.
+- **Current Examples**—Demonstrates current examples of VR in education, such as Google Expeditions for younger audiences and Labster for university students.
+- **Challenges**—Lists the challenges that VR solutions face before going mainstream within education.
 
 When users hover over a book, particle effects start emitting from the center, indicating you can use the Cardboard button to enter the lesson. Each lessons transports the user to a distraction-free zone with audio and visual material.
 
@@ -539,14 +539,14 @@ When they are done learning, users can test their knowledge with a quiz. If they
 
 ### Conclusion
 
-Virtual reality has an exciting future ahead. However, there are many challenges that still need to be addressed before mainstream adoption, particularly in a field like education. These challenges range from cost per unit, addressing simulator sickness, improving hygiene, increasing hardware performance, and navigating financial and political constraints. Despite these challenges, the VR industry is experiencing an exciting moment in history—a moment full of experimentation, collaboration, and hopeful expectations for a better future.
+Virtual reality has an exciting future ahead. However, there are many challenges that still need to be addressed before mainstream adoption occurs, particularly in a field like education. These challenges include the cost per unit, addressing simulator sickness, improving hygiene, increasing hardware performance, and navigating financial and political constraints, among others. Despite these challenges, the VR industry is experiencing an exciting moment in history—a moment full of experimentation, collaboration, and hopeful expectations for a better future.
 
 #### Next Steps
 
 If I was to improve the game, I'd start by focusing on the following elements:
 
 - Playing videos within the lesson rooms (Unity does not support this for mobile builds, but there are 3rd-party plugins that do the job, or you can roll your own)
-- Gamify the learning experience in order to achieve a "meta" effect when the effectiveness of VR in education
-- Add more lessons and more challenge questions
+- Gamify the learning experience in order to achieve a "meta" effect when demonstrating the effectiveness of VR in education
+- Add more lessons and quiz questions
 
 [Return to Top](#table-of-contents)
