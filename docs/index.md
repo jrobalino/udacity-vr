@@ -167,13 +167,13 @@ Turn this into a game where you have to discover clues about your forgotten iden
 
 ## Project 3: Maze
 
-> "Would you like to wake up from this dream?"
-> "Yes. I'm terrified."
-> "There's nothing to be afraid of, if you answer my questions correctly. Understand?"
-> "Yes."
-> "Good. First, have you ever questioned the nature of your reality?"
-> "No."
-> "Tell us what you think of your world."
+> "Would you like to wake up from this dream?"<br>
+> "Yes. I'm terrified."<br>
+> "There's nothing to be afraid of, if you answer my questions correctly. Understand?"<br>
+> "Yes."<br>
+> "Good. First, have you ever questioned the nature of your reality?"<br>
+> "No."<br>
+> "Tell us what you think of your world."<br>
 > "Some people choose to see the ugliness in this world. The disarray. I choose to see the beauty...to believe there is an order to our days, a purpose."
 
 This project dives into scripting and the advanced mechanics that programming languages offer VR applications. The game takes place within an all-too-familiar Western world where the player can live without limits as they navigate through a maze. The player finds a door at the end of the maze but they can only unlock it if they find a key hidden elsewhere in the maze. In addition to the key, the player can collect up to seven coins scattered throughout the maze, and their final score (or Apperception) is based upon how many coins they find.
