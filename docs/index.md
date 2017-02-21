@@ -213,17 +213,17 @@ The finished project has the following features:
 
 #### Waypoint Navigation System
 
-* Click the screenshot to play video.*
+*Click the screenshot to play video.*
 
 <a href="https://youtu.be/5ucw6XkTYPo" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/maze-navigation.png" alt="Maze Navigation"></a>
 
-The game uses a waypoint navigation system to allow players to traverse the maze by hovering their gaze over specially-positioned cubes. The reticle grows to indicate that players can press the Cardboard button to interact with the cube. When they do, the game teleports them to the new location and plays an audible ding.
+The game uses a waypoint navigation system that allows players to traverse the maze by hovering their gaze over specially-positioned cubes. The reticle grows to indicate that players can press the Cardboard button to interact with the cube. When they do, the game teleports them to the new location and plays an audible ding.
 
 #### Collectable Coins
 
-![Bookshelf](https://jrobalino.github.io/udacity-vr/img/apartment-2.png)
+<a href="https://youtu.be/-T-l8nRBB_w" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/maze-coin.png" alt="Collectable Coins"></a>
 
-Mention audio and particle effect.
+Players can explore the maze to find coins hidden in corners of the maze that may not be part of the main path. This adds some amount of replayability to the game, as their final score is based on the number of coins they find. When a coin is selected using the Cardboard button, a chime is played and the coin disappears in a flurry of lights.
 
 #### Key that Unlocks Door
 
@@ -239,7 +239,7 @@ Obtaining 3D models that fit the application is critical to a virtual reality pr
 
 #### Next Steps
 
-Turn this into a game where you have to discover clues about your forgotten identity!
+randomized coin and key
 
 ## Project 4: Puzzler
 
