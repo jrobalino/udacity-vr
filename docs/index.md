@@ -539,15 +539,14 @@ When they are done learning, users can test their knowledge with a quiz. If they
 
 ### Conclusion
 
-Knowing how to program is an essential part of virtual reality development. By harnessing a programming language such as C#, a developer can add more complex and less labor-intensive interactions, achieve finer grain control over the experiences they create, and leverage the functionality of third-party toolsets. Alongside understanding popular game engines, knowing how to program for the web and for popular end-user platforms is the backbone to virtual reality development.  
+Virtual reality has an exciting future ahead. However, there are many challenges that still need to be addressed before mainstream adoption, particularly in a field like education. These challenges range from cost per unit, addressing simulator sickness, improving hygiene, increasing hardware performance, and navigating financial and political constraints. Despite these challenges, the VR industry is experiencing an exciting moment in history—a moment full of experimentation, collaboration, and hopeful expectations for a better future.
 
 #### Next Steps
 
 If I was to improve the game, I'd start by focusing on the following elements:
 
-- Getting HBO's blessing for the homage :)
-- Randomizing where the key and coins are placed
-- Allowing the player to increase or decrease the amount of coins in the game
-- Programmatically generating a different maze at run time
+- Playing videos within the lesson rooms (Unity does not support this for mobile builds, but there are 3rd-party plugins that do the job, or you can roll your own)
+- Gamify the learning experience in order to achieve a "meta" effect when the effectiveness of VR in education
+- Add more lessons and more challenge questions
 
 [Return to Top](#table-of-contents)
