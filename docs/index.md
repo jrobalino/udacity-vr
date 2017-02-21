@@ -157,7 +157,7 @@ The lighting  settings in the project were set to:
 
 ### Conclusion
 
-Obtaining 3D models that fit the application is critical to a virtual reality project. While models can have complex meshes, compelling textures, and high-quality shaders, it is important to limit the performance requirements when developing for VR in order to guarantee high frame rates and a pleasurable experience on the intended device. In addition to well-placed lights of different colors and intensities, animations and audio can help bring a virtual environment to life.
+Obtaining 3D models that fit the application is critical to a virtual reality project. While models can have complex meshes, compelling textures, and high-quality shaders, it is important to limit the performance requirements when developing for VR. Doing so helps guarantee high frame rates and a pleasurable user experience on the intended device. In addition to well-placed lights of different colors and intensities, animations and audio can help bring a virtual environment to life.
 
 ## Project 4: Puzzler
 
