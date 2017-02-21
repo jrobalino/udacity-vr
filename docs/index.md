@@ -253,13 +253,20 @@ With key in hand, the door rises up smoothly when players interact with it. When
 
 <a href="https://youtu.be/nBijhk1BMSw" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/maze-score.png" alt="Maze Score"></a>
 
-There are seven coins scattered throughout the maze. The game keeps track of how many coins that player has collected by the time they reach the temple. Based on the fraction of coins collected, the players receives an Apperception score. If they would like to raise their score, they can choose to play again, which resets the game variables to their initial state and returns the player to the starting point of the maze.
+There are seven coins scattered throughout the maze. The game keeps track of how many coins the player has collected by the time they reach the temple. Based on the fraction of coins collected, the player receives an Apperception score. If they would like to raise their score, they can choose to play again, which resets the game variables to their initial state and returns the player to the starting point of the maze.
 
 ### Conclusion
 
-Obtaining 3D models that fit the application is critical to a virtual reality project. While models can have complex meshes, compelling textures, and high-quality shaders, it is important to limit the performance requirements when developing for VR. Doing so helps guarantee high frame rates and a pleasurable user experience on the intended device. In addition to well-placed lights of different colors and intensities, animations and audio can help bring a virtual environment to life.
+Knowing how to program is an essential part of virtual reality development. By harnessing a programming language such as C#, a developer can add more complex and less labor-intensive interactions, achieve finer grain control over the experiences they create, and leverage the functionality of third-party toolsets. Alongside understanding popular game engines, knowing how to program for the web and for popular end-user platforms is the backbone to virtual reality development.  
 
 #### Next Steps
+
+If I was to improve the game, I'd start by focusing on the following elements:
+
+- Getting HBO's blessing for the homage :)
+- Randomizing where the key and coins are placed
+- Allowing the player to increase or decrease the amount of coins in the game
+- Programmatically generating a different maze at run time
 
 randomized coin and key
 
