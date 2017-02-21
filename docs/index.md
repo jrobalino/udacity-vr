@@ -182,10 +182,10 @@ This project dives into scripting and the advanced mechanics that programming la
 
 Click the screenshot to view a video of the game in action.
 
-<a href="https://youtu.be/327mMdN7cOQ" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/apartment-1.png" alt="Final Game"></a>
+<a href="https://youtu.be/FJb57bbcZtI" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/maze-video-link.png" alt="Final Game"></a>
 
 ### Project Emphasis: Advanced VR Scripting
-This project emphasizes the power that scripts add to any VR application or game. It also dives deeper into fundamental Unity components, such as quaternions, prefabs, timing functions, smooth animations, UI elements, physics, and audio sources.
+This project emphasizes the power that scripts add to any VR application or game. It also dives deeper into fundamental Unity components such as quaternions, prefabs, timing functions, animations, UI elements, physics settings and colliders, and audio sources.
 
 * Variables
 * Arrays
@@ -220,43 +220,6 @@ The models in this project render sofas, rugs, a TV, a bookshelf with individual
 ![Computer](https://jrobalino.github.io/udacity-vr/img/apartment-3.png)
 
 ![TV](https://jrobalino.github.io/udacity-vr/img/apartment-4.png)
-
-#### Real-Time and Baked Lighting
-
-The apartment gets its ambience from baked area lights of different colors, a baked spotlight, a real-time directional light simulating the sun, and a custom skybox.
-
-![Living Room](https://jrobalino.github.io/udacity-vr/img/apartment-5.png)
-
-![Kitchen](https://jrobalino.github.io/udacity-vr/img/apartment-7.png)
-
-![Fruit](https://jrobalino.github.io/udacity-vr/img/apartment-6.png)
-
-#### Animation and Waypoint System
-
-As the player clicks the Cardboard button, they are teleported to one of four waypoints in the apartment. Every other time the user teleports, the globe starts or stops spinning about its axis. Ambient city sounds play in the background to give the apartment a more dynamic feel.
-
-![Globe](https://jrobalino.github.io/udacity-vr/img/apartment-8.png)
-
-#### High Mobile VR Performance
-
-To optimize the experience for mobile devices, the project uses baked lighting (with the exception of the one directional light) and shaders optimized for mobile.
-
-The quality settings in the project were set to:
-
-| Pixel light count | 0 |
-| Texture Quality | Full Res |
-| Anti Aliasing | 2x Multi Sampling |
-| Soft Particles | Off |
-| Realtime Rendering Probes | Off |
-| Billboard Face Camera Position | Off |
-| Shadows | Off |
-| Blend Weights | 1 bone |
-
-The lighting  settings in the project were set to:
-
-| Precomputed Realtime GI | Off |
-| Directional Mode | Non-Directional |
-| Bake Resoultuion | 80 texels per unit |
 
 ### Conclusion
 
