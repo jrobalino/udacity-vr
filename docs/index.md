@@ -14,7 +14,7 @@ This page documents the projects completed for the core section of my Udacity VR
 
 <table><col width="30%"><col width="70%"><tr><td><a href="#project-2-modern-apartment"><img src="https://jrobalino.github.io/udacity-vr/img/apartment_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-2-modern-apartment"><b>Project 2: Modern Apartment</b></a>—A mobile VR experience that places users within a homy, modern apartment in a happening city. The emphasis of this Udacity project is on creating high-performing virtual environments, with well-placed objects, well-chosen materials and textures, proper lighting for the build device, and the right amount of animation and ambient sound to bring the space to life.</td></tr></table>
 
-<table><col width="30%"><col width="70%"><tr><td><a href="#project-3-maze"><img src="https://jrobalino.github.io/udacity-vr/img/maze_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-3-maze"><b>Project 3: Maze</b></a>—A mobile VR game that pits players within a vast maze. To escape, players must navigate the maze without getting lost, find a key, and then escape through the exit door. The emphasis of this Udacity project is to use advanced VR scripting to control navigation, audio, animations, game objects, physics, UI interfaces, and game mechanics.</td></tr></table>
+<table><col width="30%"><col width="70%"><tr><td><a href="#project-3-maze"><img src="https://jrobalino.github.io/udacity-vr/img/maze_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-3-maze"><b>Project 3: Maze</b></a>—A mobile VR game that pits players within a vast maze. To escape, players must navigate the maze without getting lost, find a key, and then escape through the exit door. The emphasis of this Udacity project is to use C# scripts to control navigation, audio, animations, game objects, physics, UI interfaces, and game mechanics.</td></tr></table>
 
 <table><col width="30%"><col width="70%"><tr><td><a href="#project-4-puzzler"><img src="https://jrobalino.github.io/udacity-vr/img/puzzler_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-4-puzzler"><b>Project 4: Puzzler</b></a>—A mobile VR game that challenges the player to memorize a random sequence of orb flashes. The emphasis of this Udacity project is on VR design methodology: user personas, ergonomics, field of view, text choices, simulator sickness, motion paradigms, prototyping, scale, mood, user testing, iterative design, and documentation.</td></tr></table>
 
@@ -167,16 +167,16 @@ Turn this into a game where you have to discover clues about your forgotten iden
 
 ## Project 3: Maze
 
-> "Would you like to wake up from this dream?""
+> "Would you like to wake up from this dream?"
 > "Yes. I'm terrified."
-> "There's nothing to be afriad, if you answer my questions correctly. Understand?"
+> "There's nothing to be afraid of, if you answer my questions correctly. Understand?"
 > "Yes."
 > "Good. First, have you ever questioned the nature of your reality?"
 > "No."
 > "Tell us what you think of your world."
 > "Some people choose to see the ugliness in this world. The disarray. I choose to see the beauty...to believe there is an order to our days, a purpose."
 
-This project dives into scripting and the advanced mechanics that programming languages offer VR applications. The game takes place within a vast, Western world where the player must navigate a through a mysterious maze. The player can unlock a door at the end of the maze but only if they first find a key hidden elsewhere in the maze. In addition to the key, the player can collect up to seven coins if they take the time to explore the maze, and their final score is based upon how many coins they find.
+This project dives into scripting and the advanced mechanics that programming languages offer VR applications. The game takes place within an all-too-familiar Western world where the player can live without limits as they navigate through a maze. The player finds a door at the end of the maze but they can only unlock it if they find a key hidden elsewhere in the maze. In addition to the key, the player can collect up to seven coins scattered throughout the maze, and their final score (or Apperception) is based upon how many coins they find.
 
 ### Game Video
 
