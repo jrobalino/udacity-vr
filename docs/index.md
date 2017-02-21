@@ -18,6 +18,8 @@ This page documents the projects completed for the core section of my Udacity VR
 
 <table><col width="30%"><col width="70%"><tr><td><a href="#project-4-puzzler"><img src="https://jrobalino.github.io/udacity-vr/img/puzzler_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-4-puzzler"><b>Project 4: Puzzler</b></a>—A mobile VR game that challenges the player to memorize a random sequence of orb flashes. The emphasis of this Udacity project is on VR design methodology: user personas, ergonomics, field of view, text choices, simulator sickness, motion paradigms, prototyping, scale, mood, user testing, iterative design, and documentation.</td></tr></table>
 
+<table><col width="30%"><col width="70%"><tr><td><a href="#project-5-education"><img src="https://jrobalino.github.io/udacity-vr/img/education_thumbnail.jpg" width="250px"></a></td><td> <a href="#project-5-education"><b>Project 5: Education</b></a>—A mobile VR experience that teaches users about the impact of VR within the education sector. The emphasis of this Udacity project is to research an industry of the student's choice and demonstrate the results of the research in a virtual presentation.</td></tr></table>
+
 ## Project 1: Introduction
 
 > The red cube taunts you as it hovers in the air, coyly emitting particles. When you click it, it teleports randomly. If you try to grow it until it bursts, or shrink it until it vanishes, the laws of virtual physics get in your way. An inanimate object should not be this impudent. How will you react?
@@ -466,5 +468,63 @@ If I was to improve the game, I'd start by focusing on the following elements:
 - Additional rooms (stacked vertically into a tall tower so the player can progress to the top)
 - A voice-over from the evil wizard, taunting players as they move through the dungeon
 - Limited failed attempts, challenging players to get to the end of the game within a finite amount of mistakes
+
+[Return to Top](#table-of-contents)
+
+## Project 5: Education
+
+> "Would you like to wake up from this dream?"<br>
+> "Yes. I'm terrified."<br>
+> "There's nothing to be afraid of, if you answer my questions correctly. Understand?"<br>
+> "Yes."<br>
+> "Good. First, have you ever questioned the nature of your reality?"<br>
+> "No."<br>
+> "Tell us what you think of your world."<br>
+> "Some people choose to see the ugliness in this world. The disarray. I choose to see the beauty...to believe there is an order to our days, a purpose."
+
+This project presents my research into how virtual reality will affect the education industry. I chose to research education because I believe that virtual reality (as well as augmented and mixed reality) can have a huge impact on the greater good. I'm passionate about this technology in applications beyond gaming, in areas such as education, psychology, training, and diplomacy. The results of my research are presented in a mobile VR classroom setting, where the user can choose among five different lessons detailing VR in education. Each lesson provides audio and visual material for the user to explore and transports them to a distraction-free scene. After they complete the lessons, users can take a quiz to test what they learned. 
+
+### Game Video
+
+Click the screenshot to view a video of the game in action.
+
+<a href="https://youtu.be/nEBJS31u2Yw" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/education-video-link.png" alt="Final Game"></a>
+
+### Project Emphasis: The Current and Future State of VR
+This project emphasizes different VR technologies as they exist today, and what the future may hold for VR and its impact on industries at large.
+
+* High Immersion VR Platforms (HTC Vive, Oculus Rift)
+* High End AR Platforms (Microsoft HoloLens)
+* Mid Range VR Platforms (PlayStation VR)
+* Mobile VR/AR Platforms (Gear VR, Carboard, Daydream, Project Tango)
+* FOV Advancements
+* Lightfield and other tracking technologies
+* Foveated rendering
+* Haptics
+* Resolution improvements
+* Ergonomic improvements
+* VR in education (self-selected research area)
+
+### Breakdown of Final Piece
+The finished project has the following features:
+
+#### Five Separate Lessons
+
+![Scoring](https://jrobalino.github.io/udacity-vr/img/scoring.png)
+
+The game uses a waypoint navigation system that allows players to traverse the maze by hovering their gaze over specially-positioned cubes. The reticle grows to indicate that players can press the Cardboard button to interact with the cube. When they do, the game teleports them to the new location and plays an audible ding.
+
+### Conclusion
+
+Knowing how to program is an essential part of virtual reality development. By harnessing a programming language such as C#, a developer can add more complex and less labor-intensive interactions, achieve finer grain control over the experiences they create, and leverage the functionality of third-party toolsets. Alongside understanding popular game engines, knowing how to program for the web and for popular end-user platforms is the backbone to virtual reality development.  
+
+#### Next Steps
+
+If I was to improve the game, I'd start by focusing on the following elements:
+
+- Getting HBO's blessing for the homage :)
+- Randomizing where the key and coins are placed
+- Allowing the player to increase or decrease the amount of coins in the game
+- Programmatically generating a different maze at run time
 
 [Return to Top](#table-of-contents)
