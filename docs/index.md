@@ -72,7 +72,6 @@ If the cube gets too small, the game prevents you from shrinking it further, doi
 
 If you've had it with the unrelenting glow of daytime, you can select the option for sweet, sweet nightime, which animates the sun setting within the virtual environment (this happens a lot quicker than IRL). You can always set it back to daytime if you change your mind.
 
-
 ### Conclusion
 
 Unity is a great tool for designing VR experiences. The importance of clear text, comfortable UI interactions, and predictable script behavior should always be kept in mind. The build settings in Unity enable developers to design experiences for a variety of hardware platforms, ranging from mobile to high-performance headsets, but the developer must think of how to adjust these settings appropriately depending on the use case. Creating a mobile build from Unity did not prove difficult—although it *was* tricky to develop on a Windows machine and then deploy to an iOS phone :)
@@ -87,7 +86,7 @@ This project teaches the fundamentals of using Unity to build beautiful and perf
 
 Click the screenshot to view a video of the game in action.
 
-<a href="https://youtu.be/e-_Px46j6Ck" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/intro-video-link.png" alt="Final Game"></a>
+<a href="https://youtu.be/327mMdN7cOQ" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/apartment-1.png" alt="Final Game"></a>
 
 ### Project Emphasis: 3D Objects, Animations, Lighting, and Performance
 This project emphasizes how to create and animate objects in Unity, as well as how to light them well, all while optimizing performance.
@@ -109,36 +108,31 @@ This project emphasizes how to create and animate objects in Unity, as well as h
 ### Breakdown of Final Piece
 The finished project has the following features:
 
-#### Instructions to the User
+#### Dozens of Models
 
-![Instructions](https://jrobalino.github.io/udacity-vr/img/intro-video-link.png)
+The models in this project render sofas, rugs, a TV, a bookshelf with individual books, a clock, a computer desk, a kitchen table and chairs, a fridge, a counter, a fruit bowl, a globe, cabinets, a door, walls, a ceiling, and a floor.
 
-Simple instructions in clear lettering to help users get started.
+![Bookshelf](https://jrobalino.github.io/udacity-vr/img/apartment-2.png)
 
-#### Interactive UI Elements
-![UI](https://jrobalino.github.io/udacity-vr/img/intro-ui.png)
+![Computer](https://jrobalino.github.io/udacity-vr/img/apartment-3.png)
 
-The buttons located below the user are linked to different script functions which activate when the user clicks the screen through a Carboard headset. You can reset the game elements to their initial postion or recenter the view around the user's current gaze. You can also interact with the game cube (which changes color on hover) by growing or shrinking it, and interact with the skybox by changing the environment from day to night, and vice versa. Clicking directly on the cube teleports it randomly to another location in the environment.
+![TV](https://jrobalino.github.io/udacity-vr/img/apartment-4.png)
 
-#### Grow the Cube
-![Big Cube](https://jrobalino.github.io/udacity-vr/img/intro-big-cube.png)
+#### Real-Time and Baked Lighting
 
-If the cube gets too big, the game prevents you from growing it further and displays a warning:
+The apartment gets its ambience from baked area lights of different colors, a baked spotlight, a real-time directional light simulating the sun, and custom skybox.
 
-![Big Cube Warning](https://jrobalino.github.io/udacity-vr/img/intro-big-warning.png)
+![Living Room](https://jrobalino.github.io/udacity-vr/img/apartment-5.png)
 
-#### Shrink the Cube
-![Small Cube](https://jrobalino.github.io/udacity-vr/img/intro-small-cube.png)
+![Kitchen](https://jrobalino.github.io/udacity-vr/img/apartment-7.png)
 
-If the cube gets too small, the game prevents you from shrinking it further, doing funny maths, and violating the fundamental laws of the universe:
+![Fruit](https://jrobalino.github.io/udacity-vr/img/apartment-6.png)
 
-![Small Cube Warning](https://jrobalino.github.io/udacity-vr/img/intro-small-warning.png)
+#### Animation and Waypoint System
 
-#### Carpe Diem (or not)
-![Night](https://jrobalino.github.io/udacity-vr/img/intro-night.png)
+As the player clicks the Cardboard button, they are teleported to one of four waypoints in the apartment. Every other time the user teleports, the globe starts or stops spinning about its axis. Ambient city sounds play in the background to give the apartment a more dynamic feel.
 
-If you've had it with the unrelenting glow of daytime, you can select the option for sweet, sweet nightime, which animates the sun setting within the virtual environment (this happens a lot quicker than IRL). You can always set it back to daytime if you change your mind.
-
+![Globe](https://jrobalino.github.io/udacity-vr/img/apartment-8.png)
 
 ### Conclusion
 
