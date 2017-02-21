@@ -268,8 +268,6 @@ If I was to improve the game, I'd start by focusing on the following elements:
 - Allowing the player to increase or decrease the amount of coins in the game
 - Programmatically generating a different maze at run time
 
-randomized coin and key
-
 ## Project 4: Puzzler
 
 > The wizard's dungeon has been abandoned for centuries, but dark magic still lingers within its stony confines. Rumors tell of shivering travelers seeking shelter in the dungeon, only to become forever trapped by the wizard's puzzle. How will you fare, pilgrim? Will you solve the ancient puzzle, or slowly turn to dust like all that came before you?
