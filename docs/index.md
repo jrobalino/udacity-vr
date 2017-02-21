@@ -515,7 +515,7 @@ There are five lessons that users can choose:
 
 When users hover over a book, particle effects start emitting from the center, indicating you can use the Cardboard button to enter the lesson. Each lessons transports the user to a distraction-free zone with audio and visual material.
 
-![Budget](https://jrobalino.github.io/udacity-vr/img/education-budget.png)
+<img src="https://jrobalino.github.io/udacity-vr/img/education-budget.png" width="900px">
 
 Using UI buttons, users can play the narration for each section, or choose to return to the classroom at any time.
 
@@ -533,9 +533,9 @@ Throughout the learning experience, users are presented with materials from rese
 
 #### Quiz
 
-![Quiz](https://jrobalino.github.io/udacity-vr/img/education-quiz.png)
+When they are done learning, users can test their knowledge with a quiz. If they get a question wrong, the game plays audio that tells them as much, and lets them try again. If they get a question correct, the game congratulates them and marks the question as completed.
 
-When they are done learning, users can test their knowledge with a quiz. If they get a question wrong, the game plays audio that tells them as much, and lets them try again. If they get the question correct, the game congratulates them and marks the question as completed.
+![Quiz](https://jrobalino.github.io/udacity-vr/img/education-quiz.png)
 
 ### Conclusion
 
