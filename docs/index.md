@@ -211,15 +211,27 @@ This project emphasizes the power that scripts add to any VR application or game
 ### Breakdown of Final Piece
 The finished project has the following features:
 
-#### Dozens of Models
+#### Waypoint Navigation System
 
-The models in this project render sofas, rugs, a TV, a bookshelf with individual books, a clock, a computer desk, a kitchen table and chairs, a fridge, a counter, a fruit bowl, a globe, cabinets, a door, walls, a ceiling, and a floor.
+* Click the screenshot to play video.*
+
+<a href="https://youtu.be/5ucw6XkTYPo" target="_blank"><img src="https://jrobalino.github.io/udacity-vr/img/maze-navigation.png" alt="Maze Navigation"></a>
+
+The game uses a waypoint navigation system to allow players to traverse the maze by hovering their gaze over specially-positioned cubes. The reticle grows to indicate that players can press the Cardboard button to interact with the cube. When they do, the game teleports them to the new location and plays an audible ding.
+
+#### Collectable Coins
 
 ![Bookshelf](https://jrobalino.github.io/udacity-vr/img/apartment-2.png)
 
-![Computer](https://jrobalino.github.io/udacity-vr/img/apartment-3.png)
+Mention audio and particle effect.
 
-![TV](https://jrobalino.github.io/udacity-vr/img/apartment-4.png)
+#### Key that Unlocks Door
+
+Mention audio before and after and animation. Mention key animatio and audio being different than coin.
+
+#### Scoring System
+
+Mention it lets you replay
 
 ### Conclusion
 
