@@ -167,7 +167,14 @@ Turn this into a game where you have to discover clues about your forgotten iden
 
 ## Project 3: Maze
 
-> The apartment feels like home but you can't remember who you are. Desperately, you scour the corners of the beautiful studio, inspecting your book collection, computer, and kitchen items for a clue to your past. But the place is kept devastatingly sterile, the most revealing details no more personal than your selection in fruit, and you just can't remember anything. The sounds of the city wash in and out of the room, a whole world going on without you. From time to time you notice that the globe on your counter begins to spin. Could it contain the key to solving the mystery of you?
+> "Would you like to wake up from this dream?""
+> "Yes. I'm terrified."
+> "There's nothing to be afriad, if you answer my questions correctly. Understand?"
+> "Yes."
+> "Good. First, have you ever questioned the nature of your reality?"
+> "No."
+> "Tell us what you think of your world."
+> "Some people choose to see the ugliness in this world. The disarray. I choose to see the beauty...to believe there is an order to our days, a purpose."
 
 This project dives into scripting and the advanced mechanics that programming languages offer VR applications. The game takes place within a vast, Western world where the player must navigate a through a mysterious maze. The player can unlock a door at the end of the maze but only if they first find a key hidden elsewhere in the maze. In addition to the key, the player can collect up to seven coins if they take the time to explore the maze, and their final score is based upon how many coins they find.
 
