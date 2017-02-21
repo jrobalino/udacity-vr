@@ -78,7 +78,7 @@ Unity is a great tool for designing VR experiences. The importance of clear text
 
 ## Project 2: Modern Apartment
 
-> The apartment feels like home but you can't remember who you are. Desperately, you scour the corners of the beautiful studio, inspecting your book collection, computer, and kitchen items for a clue of your past. But the place is kept devastatingly sterile, the most revealing details no more personal than your selection in fruit, and you just can't remember anything. The sounds of the city wash in and out of the room, a whole world going on without you. From time to time you notice that the globe on your counter begins to spin. Could it contain the key to solving the mystery of you?
+> The apartment feels like home but you can't remember who you are. Desperately, you scour the corners of the beautiful studio, inspecting your book collection, computer, and kitchen items for a clue to your past. But the place is kept devastatingly sterile, the most revealing details no more personal than your selection in fruit, and you just can't remember anything. The sounds of the city wash in and out of the room, a whole world going on without you. From time to time you notice that the globe on your counter begins to spin. Could it contain the key to solving the mystery of you?
 
 This project teaches the fundamentals of using Unity to build beautiful and performant VR scenes. The project demonstrates complex game objects positioned within a modern apartment space at realistic scales and relative locations. The apartment is well-lit by different types of Unity lights, includes a waypoint system that allows users to move around the space, and includes animations to make the scene more engaging. Although the project strives to create a beautiful scene, it also requires that performance remain high enough to run well on mobile devices.
 
@@ -120,7 +120,7 @@ The models in this project render sofas, rugs, a TV, a bookshelf with individual
 
 #### Real-Time and Baked Lighting
 
-The apartment gets its ambience from baked area lights of different colors, a baked spotlight, a real-time directional light simulating the sun, and custom skybox.
+The apartment gets its ambience from baked area lights of different colors, a baked spotlight, a real-time directional light simulating the sun, and a custom skybox.
 
 ![Living Room](https://jrobalino.github.io/udacity-vr/img/apartment-5.png)
 
@@ -157,7 +157,7 @@ The lighting  settings in the project were set to:
 
 ### Conclusion
 
-Unity is a great tool for designing VR experiences. The importance of clear text, comfortable UI interactions, and predictable script behavior should always be kept in mind. The build settings in Unity enable developers to design experiences for a variety of hardware platforms, ranging from mobile to high-performance headsets, but the developer must think of how to adjust these settings appropriately depending on the use case. Creating a mobile build from Unity did not prove difficult—although it *was* tricky to develop on a Windows machine and then deploy to an iOS phone :)
+Obtaining 3D models that fit the application is critical to a virtual reality project. While models can have complex meshes, compelling textures, and high-quality shaders, it is important to limit the performance requirements when developing for VR in order to guarantee high frame rates and a pleasurable experience on the intended device. In addition to well-placed lights of different colors and intensities, animations and audio can help bring a virtual environment to life.
 
 ## Project 4: Puzzler
 
