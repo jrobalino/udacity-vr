@@ -78,6 +78,8 @@ If you've had it with the unrelenting glow of daytime, you can select the option
 
 Unity is a great tool for designing VR experiences. The importance of clear text, comfortable UI interactions, and predictable script behavior should always be kept in mind. The build settings in Unity enable developers to design experiences for a variety of hardware platforms, ranging from mobile to high-performance headsets, but the developer must think of how to adjust these settings appropriately depending on the use case. Creating a mobile build from Unity did not prove difficult—although it *was* tricky to develop on a Windows machine and then deploy to an iOS phone :)
 
+[Return to Top](#table-of-contents)
+
 ## Project 2: Modern Apartment
 
 > The apartment feels like home but you can't remember who you are. Desperately, you scour the corners of the beautiful studio, inspecting your book collection, computer, and kitchen items for a clue to your past. But the place is kept devastatingly sterile, the most revealing details no more personal than your selection in fruit, and you just can't remember anything. The sounds of the city wash in and out of the room, a whole world going on without you. From time to time you notice that the globe on your counter begins to spin. Could it contain the key to solving the mystery of you?
@@ -164,6 +166,8 @@ Obtaining 3D models that fit the application is critical to a virtual reality pr
 #### Next Steps
 
 Turn this into a game where you have to discover clues about your forgotten identity!
+
+[Return to Top](#table-of-contents)
 
 ## Project 3: Maze
 
@@ -267,6 +271,8 @@ If I was to improve the game, I'd start by focusing on the following elements:
 - Randomizing where the key and coins are placed
 - Allowing the player to increase or decrease the amount of coins in the game
 - Programmatically generating a different maze at run time
+
+[Return to Top](#table-of-contents)
 
 ## Project 4: Puzzler
 
@@ -460,3 +466,5 @@ If I was to improve the game, I'd start by focusing on the following elements:
 - Additional rooms (stacked vertically into a tall tower so the player can progress to the top)
 - A voice-over from the evil wizard, taunting players as they move through the dungeon
 - Limited failed attempts, challenging players to get to the end of the game within a finite amount of mistakes
+
+[Return to Top](#table-of-contents)
