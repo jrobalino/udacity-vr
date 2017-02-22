@@ -513,7 +513,7 @@ There are five lessons that users can choose:
 - **Current Examples**—Demonstrates current examples of VR in education, such as Google Expeditions for younger audiences and Labster for university students.
 - **Challenges**—Lists the challenges that VR solutions face before going mainstream within education.
 
-When users hover over a book, particle effects start emitting from the center, indicating you can use the Cardboard button to enter the lesson. Each lessons transports the user to a distraction-free zone with audio and visual material.
+When users hover over a book, particle effects start emitting from the center, indicating you can use the Cardboard button to enter the lesson. Each lesson transports the user to a distraction-free zone with audio and visual material.
 
 <img src="https://jrobalino.github.io/udacity-vr/img/education-budget.png" width="900px">
 
